@@ -38,10 +38,10 @@
     Private Sub btnNavExit_Click(sender As Object, e As EventArgs) Handles btnNavExit.Click
         If PanelExpanded Then
             ' Collapse the panel
-            For i As Integer = Nav.Width To 0 Step -10
+            For i = Nav.Width To 0 Step -10
                 Nav.Width = i
                 Application.DoEvents() ' Refresh the UI
-                System.Threading.Thread.Sleep(5) ' Delay for smooth animation
+                Threading.Thread.Sleep(5) ' Delay for smooth animation
                 btnVege.Hide()
                 btnFruit.Hide()
                 btnCart.Hide()
@@ -50,10 +50,10 @@
             PanelExpanded = False
         Else
             ' Expand the panel
-            For i As Integer = 0 To 200 Step 10 ' Set target width (e.g., 200)
+            For i = 0 To 200 Step 10 ' Set target width (e.g., 200)
                 Nav.Width = i
                 Application.DoEvents()
-                System.Threading.Thread.Sleep(5)
+                Threading.Thread.Sleep(5)
                 btnVege.Show()
                 btnFruit.Show()
                 btnCart.Show()
@@ -73,13 +73,13 @@
 
     Private Sub btn_MouseEnter(sender As Object, e As EventArgs) Handles btnVege.MouseEnter, btnFruit.MouseEnter, btnCart.MouseEnter
         ' Change the background color of the hovered button
-        Dim btn As Button = CType(sender, Button)
+        Dim btn = CType(sender, Button)
         btn.BackColor = Color.Green
     End Sub
 
     Private Sub btn_MouseLeave(sender As Object, e As EventArgs) Handles btnVege.MouseLeave, btnFruit.MouseLeave, btnCart.MouseLeave
         ' Revert the background color of the button when the mouse leaves
-        Dim btn As Button = CType(sender, Button)
+        Dim btn = CType(sender, Button)
         btn.BackColor = Color.FromArgb(18, 16, 0)
     End Sub
 

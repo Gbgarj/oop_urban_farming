@@ -25,14 +25,6 @@ Partial Class VegetablePage
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(VegetablePage))
         Panel2 = New Panel()
         Button3 = New Button()
-        Nav = New Panel()
-        btnLogout = New Button()
-        btnCart = New Button()
-        btnFruit = New Button()
-        btnVege = New Button()
-        Panel1 = New Panel()
-        PictureBox1 = New PictureBox()
-        btnNavExit = New Button()
         btnNav = New Button()
         FlowLayoutPanel1 = New FlowLayoutPanel()
         Panel3 = New Panel()
@@ -44,11 +36,19 @@ Partial Class VegetablePage
         Panel9 = New Panel()
         Panel10 = New Panel()
         Panel11 = New Panel()
+        Nav = New Panel()
+        btnLogout = New Button()
+        btnCart = New Button()
+        btnFruit = New Button()
+        btnVege = New Button()
+        Panel13 = New Panel()
+        PictureBox2 = New PictureBox()
+        btnNavExit = New Button()
         Panel2.SuspendLayout()
-        Nav.SuspendLayout()
-        Panel1.SuspendLayout()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         FlowLayoutPanel1.SuspendLayout()
+        Nav.SuspendLayout()
+        Panel13.SuspendLayout()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Panel2
@@ -72,131 +72,6 @@ Partial Class VegetablePage
         Button3.Size = New Size(32, 31)
         Button3.TabIndex = 11
         Button3.UseVisualStyleBackColor = True
-        ' 
-        ' Nav
-        ' 
-        Nav.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Nav.Controls.Add(btnLogout)
-        Nav.Controls.Add(btnCart)
-        Nav.Controls.Add(btnFruit)
-        Nav.Controls.Add(btnVege)
-        Nav.Controls.Add(Panel1)
-        Nav.Location = New Point(0, 37)
-        Nav.Name = "Nav"
-        Nav.Size = New Size(0, 511)
-        Nav.TabIndex = 22
-        ' 
-        ' btnLogout
-        ' 
-        btnLogout.Cursor = Cursors.Hand
-        btnLogout.Dock = DockStyle.Bottom
-        btnLogout.FlatAppearance.BorderSize = 0
-        btnLogout.FlatStyle = FlatStyle.Flat
-        btnLogout.Font = New Font("Calibri", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnLogout.ForeColor = Color.White
-        btnLogout.Image = CType(resources.GetObject("btnLogout.Image"), Image)
-        btnLogout.ImageAlign = ContentAlignment.MiddleLeft
-        btnLogout.Location = New Point(0, 442)
-        btnLogout.Name = "btnLogout"
-        btnLogout.Padding = New Padding(15, 0, 0, 0)
-        btnLogout.Size = New Size(0, 69)
-        btnLogout.TabIndex = 28
-        btnLogout.Text = "     Logout"
-        btnLogout.TextAlign = ContentAlignment.MiddleLeft
-        btnLogout.TextImageRelation = TextImageRelation.ImageBeforeText
-        btnLogout.UseVisualStyleBackColor = True
-        ' 
-        ' btnCart
-        ' 
-        btnCart.Cursor = Cursors.Hand
-        btnCart.Dock = DockStyle.Top
-        btnCart.FlatAppearance.BorderSize = 0
-        btnCart.FlatStyle = FlatStyle.Flat
-        btnCart.Font = New Font("Calibri", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnCart.ForeColor = SystemColors.ButtonHighlight
-        btnCart.Image = CType(resources.GetObject("btnCart.Image"), Image)
-        btnCart.ImageAlign = ContentAlignment.MiddleLeft
-        btnCart.Location = New Point(0, 316)
-        btnCart.Name = "btnCart"
-        btnCart.Padding = New Padding(15, 0, 0, 0)
-        btnCart.Size = New Size(0, 69)
-        btnCart.TabIndex = 27
-        btnCart.Text = "     Cart"
-        btnCart.TextAlign = ContentAlignment.MiddleLeft
-        btnCart.TextImageRelation = TextImageRelation.ImageBeforeText
-        btnCart.UseVisualStyleBackColor = True
-        ' 
-        ' btnFruit
-        ' 
-        btnFruit.Cursor = Cursors.Hand
-        btnFruit.Dock = DockStyle.Top
-        btnFruit.FlatAppearance.BorderSize = 0
-        btnFruit.FlatStyle = FlatStyle.Flat
-        btnFruit.Font = New Font("Calibri", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnFruit.ForeColor = SystemColors.ButtonHighlight
-        btnFruit.Image = CType(resources.GetObject("btnFruit.Image"), Image)
-        btnFruit.ImageAlign = ContentAlignment.MiddleLeft
-        btnFruit.Location = New Point(0, 247)
-        btnFruit.Name = "btnFruit"
-        btnFruit.Padding = New Padding(15, 0, 0, 0)
-        btnFruit.Size = New Size(0, 69)
-        btnFruit.TabIndex = 26
-        btnFruit.Text = "     Fruit Seeds"
-        btnFruit.TextAlign = ContentAlignment.MiddleLeft
-        btnFruit.TextImageRelation = TextImageRelation.ImageBeforeText
-        btnFruit.UseVisualStyleBackColor = True
-        ' 
-        ' btnVege
-        ' 
-        btnVege.Cursor = Cursors.Hand
-        btnVege.Dock = DockStyle.Top
-        btnVege.FlatAppearance.BorderSize = 0
-        btnVege.FlatStyle = FlatStyle.Flat
-        btnVege.Font = New Font("Calibri", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnVege.ForeColor = SystemColors.ButtonHighlight
-        btnVege.Image = CType(resources.GetObject("btnVege.Image"), Image)
-        btnVege.ImageAlign = ContentAlignment.MiddleLeft
-        btnVege.Location = New Point(0, 178)
-        btnVege.Name = "btnVege"
-        btnVege.Padding = New Padding(15, 0, 0, 0)
-        btnVege.Size = New Size(0, 69)
-        btnVege.TabIndex = 25
-        btnVege.Text = "     Vegetable Seeds"
-        btnVege.TextAlign = ContentAlignment.MiddleLeft
-        btnVege.TextImageRelation = TextImageRelation.ImageBeforeText
-        btnVege.UseVisualStyleBackColor = True
-        ' 
-        ' Panel1
-        ' 
-        Panel1.Controls.Add(PictureBox1)
-        Panel1.Controls.Add(btnNavExit)
-        Panel1.Dock = DockStyle.Top
-        Panel1.Location = New Point(0, 0)
-        Panel1.Name = "Panel1"
-        Panel1.Size = New Size(0, 178)
-        Panel1.TabIndex = 24
-        ' 
-        ' PictureBox1
-        ' 
-        PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
-        PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(70, 24)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(68, 72)
-        PictureBox1.TabIndex = 24
-        PictureBox1.TabStop = False
-        ' 
-        ' btnNavExit
-        ' 
-        btnNavExit.Cursor = Cursors.Hand
-        btnNavExit.FlatAppearance.BorderSize = 0
-        btnNavExit.FlatStyle = FlatStyle.Flat
-        btnNavExit.Image = CType(resources.GetObject("btnNavExit.Image"), Image)
-        btnNavExit.Location = New Point(166, 6)
-        btnNavExit.Name = "btnNavExit"
-        btnNavExit.Size = New Size(31, 28)
-        btnNavExit.TabIndex = 23
-        btnNavExit.UseVisualStyleBackColor = True
         ' 
         ' btnNav
         ' 
@@ -311,38 +186,156 @@ Partial Class VegetablePage
         Panel11.Size = New Size(246, 323)
         Panel11.TabIndex = 7
         ' 
-        ' HomePage
+        ' Nav
+        ' 
+        Nav.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        Nav.Controls.Add(btnLogout)
+        Nav.Controls.Add(btnCart)
+        Nav.Controls.Add(btnFruit)
+        Nav.Controls.Add(btnVege)
+        Nav.Controls.Add(Panel13)
+        Nav.Dock = DockStyle.Left
+        Nav.Location = New Point(0, 37)
+        Nav.Name = "Nav"
+        Nav.Size = New Size(200, 511)
+        Nav.TabIndex = 24
+        ' 
+        ' btnLogout
+        ' 
+        btnLogout.Cursor = Cursors.Hand
+        btnLogout.Dock = DockStyle.Bottom
+        btnLogout.FlatAppearance.BorderSize = 0
+        btnLogout.FlatStyle = FlatStyle.Flat
+        btnLogout.Font = New Font("Calibri", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnLogout.ForeColor = Color.White
+        btnLogout.Image = CType(resources.GetObject("btnLogout.Image"), Image)
+        btnLogout.ImageAlign = ContentAlignment.MiddleLeft
+        btnLogout.Location = New Point(0, 442)
+        btnLogout.Name = "btnLogout"
+        btnLogout.Padding = New Padding(15, 0, 0, 0)
+        btnLogout.Size = New Size(200, 69)
+        btnLogout.TabIndex = 28
+        btnLogout.Text = "     Logout"
+        btnLogout.TextAlign = ContentAlignment.MiddleLeft
+        btnLogout.TextImageRelation = TextImageRelation.ImageBeforeText
+        btnLogout.UseVisualStyleBackColor = True
+        ' 
+        ' btnCart
+        ' 
+        btnCart.Cursor = Cursors.Hand
+        btnCart.Dock = DockStyle.Top
+        btnCart.FlatAppearance.BorderSize = 0
+        btnCart.FlatStyle = FlatStyle.Flat
+        btnCart.Font = New Font("Calibri", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnCart.ForeColor = SystemColors.ButtonHighlight
+        btnCart.Image = CType(resources.GetObject("btnCart.Image"), Image)
+        btnCart.ImageAlign = ContentAlignment.MiddleLeft
+        btnCart.Location = New Point(0, 316)
+        btnCart.Name = "btnCart"
+        btnCart.Padding = New Padding(15, 0, 0, 0)
+        btnCart.Size = New Size(200, 69)
+        btnCart.TabIndex = 27
+        btnCart.Text = "     Cart"
+        btnCart.TextAlign = ContentAlignment.MiddleLeft
+        btnCart.TextImageRelation = TextImageRelation.ImageBeforeText
+        btnCart.UseVisualStyleBackColor = True
+        ' 
+        ' btnFruit
+        ' 
+        btnFruit.Cursor = Cursors.Hand
+        btnFruit.Dock = DockStyle.Top
+        btnFruit.FlatAppearance.BorderSize = 0
+        btnFruit.FlatStyle = FlatStyle.Flat
+        btnFruit.Font = New Font("Calibri", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnFruit.ForeColor = SystemColors.ButtonHighlight
+        btnFruit.Image = CType(resources.GetObject("btnFruit.Image"), Image)
+        btnFruit.ImageAlign = ContentAlignment.MiddleLeft
+        btnFruit.Location = New Point(0, 247)
+        btnFruit.Name = "btnFruit"
+        btnFruit.Padding = New Padding(15, 0, 0, 0)
+        btnFruit.Size = New Size(200, 69)
+        btnFruit.TabIndex = 26
+        btnFruit.Text = "     Fruit Seeds"
+        btnFruit.TextAlign = ContentAlignment.MiddleLeft
+        btnFruit.TextImageRelation = TextImageRelation.ImageBeforeText
+        btnFruit.UseVisualStyleBackColor = True
+        ' 
+        ' btnVege
+        ' 
+        btnVege.Cursor = Cursors.Hand
+        btnVege.Dock = DockStyle.Top
+        btnVege.FlatAppearance.BorderSize = 0
+        btnVege.FlatStyle = FlatStyle.Flat
+        btnVege.Font = New Font("Calibri", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnVege.ForeColor = SystemColors.ButtonHighlight
+        btnVege.Image = CType(resources.GetObject("btnVege.Image"), Image)
+        btnVege.ImageAlign = ContentAlignment.MiddleLeft
+        btnVege.Location = New Point(0, 178)
+        btnVege.Name = "btnVege"
+        btnVege.Padding = New Padding(15, 0, 0, 0)
+        btnVege.Size = New Size(200, 69)
+        btnVege.TabIndex = 25
+        btnVege.Text = "     Vegetable Seeds"
+        btnVege.TextAlign = ContentAlignment.MiddleLeft
+        btnVege.TextImageRelation = TextImageRelation.ImageBeforeText
+        btnVege.UseVisualStyleBackColor = True
+        ' 
+        ' Panel13
+        ' 
+        Panel13.Controls.Add(PictureBox2)
+        Panel13.Controls.Add(btnNavExit)
+        Panel13.Dock = DockStyle.Top
+        Panel13.Location = New Point(0, 0)
+        Panel13.Name = "Panel13"
+        Panel13.Size = New Size(200, 178)
+        Panel13.TabIndex = 24
+        ' 
+        ' PictureBox2
+        ' 
+        PictureBox2.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
+        PictureBox2.Location = New Point(70, 24)
+        PictureBox2.Name = "PictureBox2"
+        PictureBox2.Size = New Size(68, 72)
+        PictureBox2.TabIndex = 24
+        PictureBox2.TabStop = False
+        ' 
+        ' btnNavExit
+        ' 
+        btnNavExit.Cursor = Cursors.Hand
+        btnNavExit.FlatAppearance.BorderSize = 0
+        btnNavExit.FlatStyle = FlatStyle.Flat
+        btnNavExit.Image = CType(resources.GetObject("btnNavExit.Image"), Image)
+        btnNavExit.Location = New Point(166, 6)
+        btnNavExit.Name = "btnNavExit"
+        btnNavExit.Size = New Size(31, 28)
+        btnNavExit.TabIndex = 23
+        btnNavExit.UseVisualStyleBackColor = True
+        ' 
+        ' VegetablePage
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(932, 548)
-        Controls.Add(FlowLayoutPanel1)
         Controls.Add(Nav)
+        Controls.Add(FlowLayoutPanel1)
         Controls.Add(btnNav)
         Controls.Add(Panel2)
         FormBorderStyle = FormBorderStyle.None
-        Name = "HomePage"
+        Name = "VegetablePage"
         StartPosition = FormStartPosition.CenterScreen
         Text = "HomePage"
         Panel2.ResumeLayout(False)
-        Nav.ResumeLayout(False)
-        Panel1.ResumeLayout(False)
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         FlowLayoutPanel1.ResumeLayout(False)
+        Nav.ResumeLayout(False)
+        Panel13.ResumeLayout(False)
+        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Button3 As Button
-    Friend WithEvents Nav As Panel
     Friend WithEvents btnNav As Button
-    Friend WithEvents btnNavExit As Button
-    Friend WithEvents btnVege As Button
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents btnLogout As Button
-    Friend WithEvents btnCart As Button
-    Friend WithEvents btnFruit As Button
-    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Panel5 As Panel
@@ -353,4 +346,12 @@ Partial Class VegetablePage
     Friend WithEvents Panel9 As Panel
     Friend WithEvents Panel10 As Panel
     Friend WithEvents Panel11 As Panel
+    Friend WithEvents Nav As Panel
+    Friend WithEvents btnLogout As Button
+    Friend WithEvents btnCart As Button
+    Friend WithEvents btnFruit As Button
+    Friend WithEvents btnVege As Button
+    Friend WithEvents Panel13 As Panel
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents btnNavExit As Button
 End Class
