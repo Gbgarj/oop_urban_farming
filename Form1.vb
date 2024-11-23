@@ -32,7 +32,7 @@ Public Class Form1
             MessageBox.Show("Username or Password are Invalid")
         Else
             MessageBox.Show("Login Successfully!")
-            Form3.Show()
+            VegetablePage.Show()
             Hide()
         End If
 

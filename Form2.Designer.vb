@@ -177,7 +177,7 @@ Partial Class Form2
         ' 
         ' Panel2
         ' 
-        Panel2.BackColor = Color.Black
+        Panel2.BackColor = Color.FromArgb(CByte(0), CByte(64), CByte(0))
         Panel2.Controls.Add(Button3)
         Panel2.Dock = DockStyle.Top
         Panel2.Location = New Point(0, 0)
