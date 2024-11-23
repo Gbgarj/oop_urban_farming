@@ -110,7 +110,7 @@ Partial Class Form1
         Button1.FlatStyle = FlatStyle.Flat
         Button1.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button1.ForeColor = SystemColors.ButtonHighlight
-        Button1.Location = New Point(111, 373)
+        Button1.Location = New Point(106, 373)
         Button1.Name = "Button1"
         Button1.Size = New Size(133, 41)
         Button1.TabIndex = 6
