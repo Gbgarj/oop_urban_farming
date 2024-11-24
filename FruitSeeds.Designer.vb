@@ -333,7 +333,7 @@ Partial Class FruitSeeds
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(0, 0)
+        Label1.Location = New Point(175, 74)
         Label1.Name = "Label1"
         Label1.Size = New Size(41, 15)
         Label1.TabIndex = 29
