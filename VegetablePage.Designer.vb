@@ -44,11 +44,14 @@ Partial Class VegetablePage
         Panel13 = New Panel()
         PictureBox2 = New PictureBox()
         btnNavExit = New Button()
+        PictureBox1 = New PictureBox()
         Panel2.SuspendLayout()
         FlowLayoutPanel1.SuspendLayout()
+        Panel3.SuspendLayout()
         Nav.SuspendLayout()
         Panel13.SuspendLayout()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Panel2
@@ -99,7 +102,7 @@ Partial Class VegetablePage
         FlowLayoutPanel1.Controls.Add(Panel9)
         FlowLayoutPanel1.Controls.Add(Panel10)
         FlowLayoutPanel1.Controls.Add(Panel11)
-        FlowLayoutPanel1.Location = New Point(52, 139)
+        FlowLayoutPanel1.Location = New Point(46, 139)
         FlowLayoutPanel1.Name = "FlowLayoutPanel1"
         FlowLayoutPanel1.Padding = New Padding(10)
         FlowLayoutPanel1.Size = New Size(838, 362)
@@ -108,6 +111,7 @@ Partial Class VegetablePage
         ' Panel3
         ' 
         Panel3.BorderStyle = BorderStyle.FixedSingle
+        Panel3.Controls.Add(PictureBox1)
         Panel3.Location = New Point(20, 20)
         Panel3.Margin = New Padding(10)
         Panel3.Name = "Panel3"
@@ -197,7 +201,7 @@ Partial Class VegetablePage
         Nav.Dock = DockStyle.Left
         Nav.Location = New Point(0, 37)
         Nav.Name = "Nav"
-        Nav.Size = New Size(200, 511)
+        Nav.Size = New Size(0, 511)
         Nav.TabIndex = 24
         ' 
         ' btnLogout
@@ -213,7 +217,7 @@ Partial Class VegetablePage
         btnLogout.Location = New Point(0, 442)
         btnLogout.Name = "btnLogout"
         btnLogout.Padding = New Padding(15, 0, 0, 0)
-        btnLogout.Size = New Size(200, 69)
+        btnLogout.Size = New Size(0, 69)
         btnLogout.TabIndex = 28
         btnLogout.Text = "     Logout"
         btnLogout.TextAlign = ContentAlignment.MiddleLeft
@@ -233,7 +237,7 @@ Partial Class VegetablePage
         btnCart.Location = New Point(0, 316)
         btnCart.Name = "btnCart"
         btnCart.Padding = New Padding(15, 0, 0, 0)
-        btnCart.Size = New Size(200, 69)
+        btnCart.Size = New Size(0, 69)
         btnCart.TabIndex = 27
         btnCart.Text = "     Cart"
         btnCart.TextAlign = ContentAlignment.MiddleLeft
@@ -253,7 +257,7 @@ Partial Class VegetablePage
         btnFruit.Location = New Point(0, 247)
         btnFruit.Name = "btnFruit"
         btnFruit.Padding = New Padding(15, 0, 0, 0)
-        btnFruit.Size = New Size(200, 69)
+        btnFruit.Size = New Size(0, 69)
         btnFruit.TabIndex = 26
         btnFruit.Text = "     Fruit Seeds"
         btnFruit.TextAlign = ContentAlignment.MiddleLeft
@@ -273,7 +277,7 @@ Partial Class VegetablePage
         btnVege.Location = New Point(0, 178)
         btnVege.Name = "btnVege"
         btnVege.Padding = New Padding(15, 0, 0, 0)
-        btnVege.Size = New Size(200, 69)
+        btnVege.Size = New Size(0, 69)
         btnVege.TabIndex = 25
         btnVege.Text = "     Vegetable Seeds"
         btnVege.TextAlign = ContentAlignment.MiddleLeft
@@ -287,7 +291,7 @@ Partial Class VegetablePage
         Panel13.Dock = DockStyle.Top
         Panel13.Location = New Point(0, 0)
         Panel13.Name = "Panel13"
-        Panel13.Size = New Size(200, 178)
+        Panel13.Size = New Size(0, 178)
         Panel13.TabIndex = 24
         ' 
         ' PictureBox2
@@ -312,6 +316,14 @@ Partial Class VegetablePage
         btnNavExit.TabIndex = 23
         btnNavExit.UseVisualStyleBackColor = True
         ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.Location = New Point(37, 21)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(169, 125)
+        PictureBox1.TabIndex = 0
+        PictureBox1.TabStop = False
+        ' 
         ' VegetablePage
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -327,9 +339,11 @@ Partial Class VegetablePage
         Text = "HomePage"
         Panel2.ResumeLayout(False)
         FlowLayoutPanel1.ResumeLayout(False)
+        Panel3.ResumeLayout(False)
         Nav.ResumeLayout(False)
         Panel13.ResumeLayout(False)
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
@@ -354,4 +368,5 @@ Partial Class VegetablePage
     Friend WithEvents Panel13 As Panel
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents btnNavExit As Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class
