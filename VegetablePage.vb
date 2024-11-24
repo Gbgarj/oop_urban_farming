@@ -83,4 +83,7 @@
         btn.BackColor = Color.FromArgb(18, 16, 0)
     End Sub
 
+    Private Sub PictureBox17_Click(sender As Object, e As EventArgs) Handles PictureBox17.Click
+
+    End Sub
 End Class

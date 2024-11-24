@@ -28,33 +28,23 @@ Partial Class VegetablePage
         btnNav = New Button()
         FlowLayoutPanel1 = New FlowLayoutPanel()
         Panel3 = New Panel()
+        Button2 = New Button()
+        Button1 = New Button()
+        Label2 = New Label()
+        Label1 = New Label()
         PictureBox1 = New PictureBox()
         Panel5 = New Panel()
-        Panel4 = New Panel()
-        Nav = New Panel()
-        btnLogout = New Button()
-        btnCart = New Button()
-        btnFruit = New Button()
-        btnVege = New Button()
-        Panel13 = New Panel()
-        PictureBox2 = New PictureBox()
-        btnNavExit = New Button()
-        Label1 = New Label()
-        Label2 = New Label()
-        Button1 = New Button()
-        Button2 = New Button()
         Button4 = New Button()
         Button5 = New Button()
         Label3 = New Label()
         Label4 = New Label()
         PictureBox3 = New PictureBox()
+        Panel4 = New Panel()
         Button6 = New Button()
         Button7 = New Button()
         Label5 = New Label()
         Label6 = New Label()
         PictureBox4 = New PictureBox()
-        Panel1 = New Panel()
-        Label7 = New Label()
         Panel6 = New Panel()
         Button8 = New Button()
         Button9 = New Button()
@@ -92,16 +82,30 @@ Partial Class VegetablePage
         Label19 = New Label()
         PictureBox10 = New PictureBox()
         Panel12 = New Panel()
+        Nav = New Panel()
+        btnLogout = New Button()
+        btnCart = New Button()
+        btnFruit = New Button()
+        btnVege = New Button()
+        Panel13 = New Panel()
+        PictureBox2 = New PictureBox()
+        btnNavExit = New Button()
+        Panel1 = New Panel()
+        Label7 = New Label()
+        PictureBox15 = New PictureBox()
+        PictureBox14 = New PictureBox()
+        PictureBox13 = New PictureBox()
+        PictureBox12 = New PictureBox()
+        PictureBox11 = New PictureBox()
+        PictureBox16 = New PictureBox()
+        PictureBox17 = New PictureBox()
         Panel2.SuspendLayout()
         FlowLayoutPanel1.SuspendLayout()
         Panel3.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         Panel5.SuspendLayout()
-        Panel4.SuspendLayout()
-        Nav.SuspendLayout()
-        Panel13.SuspendLayout()
-        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
+        Panel4.SuspendLayout()
         CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
         Panel6.SuspendLayout()
         CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
@@ -115,6 +119,16 @@ Partial Class VegetablePage
         CType(PictureBox9, ComponentModel.ISupportInitialize).BeginInit()
         Panel11.SuspendLayout()
         CType(PictureBox10, ComponentModel.ISupportInitialize).BeginInit()
+        Nav.SuspendLayout()
+        Panel13.SuspendLayout()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox15, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox14, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox13, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox12, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox11, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox16, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox17, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Panel2
@@ -186,6 +200,54 @@ Partial Class VegetablePage
         Panel3.Size = New Size(246, 323)
         Panel3.TabIndex = 0
         ' 
+        ' Button2
+        ' 
+        Button2.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        Button2.FlatAppearance.BorderSize = 0
+        Button2.FlatStyle = FlatStyle.Flat
+        Button2.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        Button2.ForeColor = SystemColors.ButtonHighlight
+        Button2.Location = New Point(37, 262)
+        Button2.Name = "Button2"
+        Button2.Size = New Size(169, 39)
+        Button2.TabIndex = 4
+        Button2.Text = "VIEW GUIDE"
+        Button2.UseVisualStyleBackColor = False
+        ' 
+        ' Button1
+        ' 
+        Button1.BackColor = Color.FromArgb(CByte(0), CByte(64), CByte(0))
+        Button1.FlatAppearance.BorderSize = 0
+        Button1.FlatStyle = FlatStyle.Flat
+        Button1.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        Button1.ForeColor = SystemColors.ButtonHighlight
+        Button1.Location = New Point(37, 217)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(169, 39)
+        Button1.TabIndex = 3
+        Button1.Text = "BUY"
+        Button1.UseVisualStyleBackColor = False
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Calibri", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label2.Location = New Point(37, 189)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(68, 15)
+        Label2.TabIndex = 2
+        Label2.Text = "Price: ₱ 50 "
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Location = New Point(37, 162)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(112, 15)
+        Label1.TabIndex = 1
+        Label1.Text = "PETCAHY SEEDS"
+        ' 
         ' PictureBox1
         ' 
         PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
@@ -209,194 +271,6 @@ Partial Class VegetablePage
         Panel5.Name = "Panel5"
         Panel5.Size = New Size(246, 323)
         Panel5.TabIndex = 1
-        ' 
-        ' Panel4
-        ' 
-        Panel4.BorderStyle = BorderStyle.FixedSingle
-        Panel4.Controls.Add(Button6)
-        Panel4.Controls.Add(Button7)
-        Panel4.Controls.Add(Label5)
-        Panel4.Controls.Add(Label6)
-        Panel4.Controls.Add(PictureBox4)
-        Panel4.Location = New Point(552, 20)
-        Panel4.Margin = New Padding(10)
-        Panel4.Name = "Panel4"
-        Panel4.Size = New Size(246, 323)
-        Panel4.TabIndex = 1
-        ' 
-        ' Nav
-        ' 
-        Nav.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Nav.Controls.Add(btnLogout)
-        Nav.Controls.Add(btnCart)
-        Nav.Controls.Add(btnFruit)
-        Nav.Controls.Add(btnVege)
-        Nav.Controls.Add(Panel13)
-        Nav.Dock = DockStyle.Left
-        Nav.Location = New Point(0, 37)
-        Nav.Name = "Nav"
-        Nav.Size = New Size(0, 511)
-        Nav.TabIndex = 24
-        ' 
-        ' btnLogout
-        ' 
-        btnLogout.Cursor = Cursors.Hand
-        btnLogout.Dock = DockStyle.Bottom
-        btnLogout.FlatAppearance.BorderSize = 0
-        btnLogout.FlatStyle = FlatStyle.Flat
-        btnLogout.Font = New Font("Calibri", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnLogout.ForeColor = Color.White
-        btnLogout.Image = CType(resources.GetObject("btnLogout.Image"), Image)
-        btnLogout.ImageAlign = ContentAlignment.MiddleLeft
-        btnLogout.Location = New Point(0, 442)
-        btnLogout.Name = "btnLogout"
-        btnLogout.Padding = New Padding(15, 0, 0, 0)
-        btnLogout.Size = New Size(0, 69)
-        btnLogout.TabIndex = 28
-        btnLogout.Text = "     Logout"
-        btnLogout.TextAlign = ContentAlignment.MiddleLeft
-        btnLogout.TextImageRelation = TextImageRelation.ImageBeforeText
-        btnLogout.UseVisualStyleBackColor = True
-        ' 
-        ' btnCart
-        ' 
-        btnCart.Cursor = Cursors.Hand
-        btnCart.Dock = DockStyle.Top
-        btnCart.FlatAppearance.BorderSize = 0
-        btnCart.FlatStyle = FlatStyle.Flat
-        btnCart.Font = New Font("Calibri", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnCart.ForeColor = SystemColors.ButtonHighlight
-        btnCart.Image = CType(resources.GetObject("btnCart.Image"), Image)
-        btnCart.ImageAlign = ContentAlignment.MiddleLeft
-        btnCart.Location = New Point(0, 316)
-        btnCart.Name = "btnCart"
-        btnCart.Padding = New Padding(15, 0, 0, 0)
-        btnCart.Size = New Size(0, 69)
-        btnCart.TabIndex = 27
-        btnCart.Text = "     Cart"
-        btnCart.TextAlign = ContentAlignment.MiddleLeft
-        btnCart.TextImageRelation = TextImageRelation.ImageBeforeText
-        btnCart.UseVisualStyleBackColor = True
-        ' 
-        ' btnFruit
-        ' 
-        btnFruit.Cursor = Cursors.Hand
-        btnFruit.Dock = DockStyle.Top
-        btnFruit.FlatAppearance.BorderSize = 0
-        btnFruit.FlatStyle = FlatStyle.Flat
-        btnFruit.Font = New Font("Calibri", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnFruit.ForeColor = SystemColors.ButtonHighlight
-        btnFruit.Image = CType(resources.GetObject("btnFruit.Image"), Image)
-        btnFruit.ImageAlign = ContentAlignment.MiddleLeft
-        btnFruit.Location = New Point(0, 247)
-        btnFruit.Name = "btnFruit"
-        btnFruit.Padding = New Padding(15, 0, 0, 0)
-        btnFruit.Size = New Size(0, 69)
-        btnFruit.TabIndex = 26
-        btnFruit.Text = "     Fruit Seeds"
-        btnFruit.TextAlign = ContentAlignment.MiddleLeft
-        btnFruit.TextImageRelation = TextImageRelation.ImageBeforeText
-        btnFruit.UseVisualStyleBackColor = True
-        ' 
-        ' btnVege
-        ' 
-        btnVege.Cursor = Cursors.Hand
-        btnVege.Dock = DockStyle.Top
-        btnVege.FlatAppearance.BorderSize = 0
-        btnVege.FlatStyle = FlatStyle.Flat
-        btnVege.Font = New Font("Calibri", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnVege.ForeColor = SystemColors.ButtonHighlight
-        btnVege.Image = CType(resources.GetObject("btnVege.Image"), Image)
-        btnVege.ImageAlign = ContentAlignment.MiddleLeft
-        btnVege.Location = New Point(0, 178)
-        btnVege.Name = "btnVege"
-        btnVege.Padding = New Padding(15, 0, 0, 0)
-        btnVege.Size = New Size(0, 69)
-        btnVege.TabIndex = 25
-        btnVege.Text = "     Vegetable Seeds"
-        btnVege.TextAlign = ContentAlignment.MiddleLeft
-        btnVege.TextImageRelation = TextImageRelation.ImageBeforeText
-        btnVege.UseVisualStyleBackColor = True
-        ' 
-        ' Panel13
-        ' 
-        Panel13.Controls.Add(PictureBox2)
-        Panel13.Controls.Add(btnNavExit)
-        Panel13.Dock = DockStyle.Top
-        Panel13.Location = New Point(0, 0)
-        Panel13.Name = "Panel13"
-        Panel13.Size = New Size(0, 178)
-        Panel13.TabIndex = 24
-        ' 
-        ' PictureBox2
-        ' 
-        PictureBox2.BackgroundImageLayout = ImageLayout.Stretch
-        PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
-        PictureBox2.Location = New Point(70, 24)
-        PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(68, 72)
-        PictureBox2.TabIndex = 24
-        PictureBox2.TabStop = False
-        ' 
-        ' btnNavExit
-        ' 
-        btnNavExit.Cursor = Cursors.Hand
-        btnNavExit.FlatAppearance.BorderSize = 0
-        btnNavExit.FlatStyle = FlatStyle.Flat
-        btnNavExit.Image = CType(resources.GetObject("btnNavExit.Image"), Image)
-        btnNavExit.Location = New Point(166, 6)
-        btnNavExit.Name = "btnNavExit"
-        btnNavExit.Size = New Size(31, 28)
-        btnNavExit.TabIndex = 23
-        btnNavExit.UseVisualStyleBackColor = True
-        ' 
-        ' Label1
-        ' 
-        Label1.AutoSize = True
-        Label1.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(37, 162)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(112, 15)
-        Label1.TabIndex = 1
-        Label1.Text = "PETCAHY SEEDS"
-        ' 
-        ' Label2
-        ' 
-        Label2.AutoSize = True
-        Label2.Font = New Font("Calibri", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label2.Location = New Point(37, 189)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(68, 15)
-        Label2.TabIndex = 2
-        Label2.Text = "Price: ₱ 50 "
-        ' 
-        ' Button1
-        ' 
-        Button1.BackColor = Color.FromArgb(CByte(0), CByte(64), CByte(0))
-        Button1.FlatAppearance.BorderSize = 0
-        Button1.FlatStyle = FlatStyle.Flat
-        Button1.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button1.ForeColor = SystemColors.ButtonHighlight
-        Button1.Location = New Point(37, 217)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(169, 39)
-        Button1.TabIndex = 3
-        Button1.Text = "BUY"
-        Button1.UseVisualStyleBackColor = False
-        ' 
-        ' Button2
-        ' 
-        Button2.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Button2.FlatAppearance.BorderSize = 0
-        Button2.FlatStyle = FlatStyle.Flat
-        Button2.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button2.ForeColor = SystemColors.ButtonHighlight
-        Button2.Location = New Point(37, 262)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(169, 39)
-        Button2.TabIndex = 4
-        Button2.Text = "VIEW GUIDE"
-        Button2.UseVisualStyleBackColor = False
         ' 
         ' Button4
         ' 
@@ -456,6 +330,20 @@ Partial Class VegetablePage
         PictureBox3.TabIndex = 5
         PictureBox3.TabStop = False
         ' 
+        ' Panel4
+        ' 
+        Panel4.BorderStyle = BorderStyle.FixedSingle
+        Panel4.Controls.Add(Button6)
+        Panel4.Controls.Add(Button7)
+        Panel4.Controls.Add(Label5)
+        Panel4.Controls.Add(Label6)
+        Panel4.Controls.Add(PictureBox4)
+        Panel4.Location = New Point(552, 20)
+        Panel4.Margin = New Padding(10)
+        Panel4.Name = "Panel4"
+        Panel4.Size = New Size(246, 323)
+        Panel4.TabIndex = 1
+        ' 
         ' Button6
         ' 
         Button6.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
@@ -513,24 +401,6 @@ Partial Class VegetablePage
         PictureBox4.Size = New Size(169, 125)
         PictureBox4.TabIndex = 10
         PictureBox4.TabStop = False
-        ' 
-        ' Panel1
-        ' 
-        Panel1.BackColor = Color.FromArgb(CByte(0), CByte(64), CByte(0))
-        Panel1.Location = New Point(418, 98)
-        Panel1.Name = "Panel1"
-        Panel1.Size = New Size(100, 2)
-        Panel1.TabIndex = 25
-        ' 
-        ' Label7
-        ' 
-        Label7.AutoSize = True
-        Label7.Font = New Font("Arial Black", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label7.Location = New Point(344, 65)
-        Label7.Name = "Label7"
-        Label7.Size = New Size(235, 30)
-        Label7.TabIndex = 26
-        Label7.Text = "VEGETABLE SEEDS"
         ' 
         ' Panel6
         ' 
@@ -971,12 +841,233 @@ Partial Class VegetablePage
         Panel12.Size = New Size(785, 22)
         Panel12.TabIndex = 8
         ' 
+        ' Nav
+        ' 
+        Nav.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        Nav.Controls.Add(btnLogout)
+        Nav.Controls.Add(btnCart)
+        Nav.Controls.Add(btnFruit)
+        Nav.Controls.Add(btnVege)
+        Nav.Controls.Add(Panel13)
+        Nav.Dock = DockStyle.Left
+        Nav.Location = New Point(0, 37)
+        Nav.Name = "Nav"
+        Nav.Size = New Size(0, 511)
+        Nav.TabIndex = 24
+        ' 
+        ' btnLogout
+        ' 
+        btnLogout.Cursor = Cursors.Hand
+        btnLogout.Dock = DockStyle.Bottom
+        btnLogout.FlatAppearance.BorderSize = 0
+        btnLogout.FlatStyle = FlatStyle.Flat
+        btnLogout.Font = New Font("Calibri", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnLogout.ForeColor = Color.White
+        btnLogout.Image = CType(resources.GetObject("btnLogout.Image"), Image)
+        btnLogout.ImageAlign = ContentAlignment.MiddleLeft
+        btnLogout.Location = New Point(0, 442)
+        btnLogout.Name = "btnLogout"
+        btnLogout.Padding = New Padding(15, 0, 0, 0)
+        btnLogout.Size = New Size(0, 69)
+        btnLogout.TabIndex = 28
+        btnLogout.Text = "     Logout"
+        btnLogout.TextAlign = ContentAlignment.MiddleLeft
+        btnLogout.TextImageRelation = TextImageRelation.ImageBeforeText
+        btnLogout.UseVisualStyleBackColor = True
+        ' 
+        ' btnCart
+        ' 
+        btnCart.Cursor = Cursors.Hand
+        btnCart.Dock = DockStyle.Top
+        btnCart.FlatAppearance.BorderSize = 0
+        btnCart.FlatStyle = FlatStyle.Flat
+        btnCart.Font = New Font("Calibri", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnCart.ForeColor = SystemColors.ButtonHighlight
+        btnCart.Image = CType(resources.GetObject("btnCart.Image"), Image)
+        btnCart.ImageAlign = ContentAlignment.MiddleLeft
+        btnCart.Location = New Point(0, 316)
+        btnCart.Name = "btnCart"
+        btnCart.Padding = New Padding(15, 0, 0, 0)
+        btnCart.Size = New Size(0, 69)
+        btnCart.TabIndex = 27
+        btnCart.Text = "     Cart"
+        btnCart.TextAlign = ContentAlignment.MiddleLeft
+        btnCart.TextImageRelation = TextImageRelation.ImageBeforeText
+        btnCart.UseVisualStyleBackColor = True
+        ' 
+        ' btnFruit
+        ' 
+        btnFruit.Cursor = Cursors.Hand
+        btnFruit.Dock = DockStyle.Top
+        btnFruit.FlatAppearance.BorderSize = 0
+        btnFruit.FlatStyle = FlatStyle.Flat
+        btnFruit.Font = New Font("Calibri", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnFruit.ForeColor = SystemColors.ButtonHighlight
+        btnFruit.Image = CType(resources.GetObject("btnFruit.Image"), Image)
+        btnFruit.ImageAlign = ContentAlignment.MiddleLeft
+        btnFruit.Location = New Point(0, 247)
+        btnFruit.Name = "btnFruit"
+        btnFruit.Padding = New Padding(15, 0, 0, 0)
+        btnFruit.Size = New Size(0, 69)
+        btnFruit.TabIndex = 26
+        btnFruit.Text = "     Fruit Seeds"
+        btnFruit.TextAlign = ContentAlignment.MiddleLeft
+        btnFruit.TextImageRelation = TextImageRelation.ImageBeforeText
+        btnFruit.UseVisualStyleBackColor = True
+        ' 
+        ' btnVege
+        ' 
+        btnVege.Cursor = Cursors.Hand
+        btnVege.Dock = DockStyle.Top
+        btnVege.FlatAppearance.BorderSize = 0
+        btnVege.FlatStyle = FlatStyle.Flat
+        btnVege.Font = New Font("Calibri", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnVege.ForeColor = SystemColors.ButtonHighlight
+        btnVege.Image = CType(resources.GetObject("btnVege.Image"), Image)
+        btnVege.ImageAlign = ContentAlignment.MiddleLeft
+        btnVege.Location = New Point(0, 178)
+        btnVege.Name = "btnVege"
+        btnVege.Padding = New Padding(15, 0, 0, 0)
+        btnVege.Size = New Size(0, 69)
+        btnVege.TabIndex = 25
+        btnVege.Text = "     Vegetable Seeds"
+        btnVege.TextAlign = ContentAlignment.MiddleLeft
+        btnVege.TextImageRelation = TextImageRelation.ImageBeforeText
+        btnVege.UseVisualStyleBackColor = True
+        ' 
+        ' Panel13
+        ' 
+        Panel13.Controls.Add(PictureBox2)
+        Panel13.Controls.Add(btnNavExit)
+        Panel13.Dock = DockStyle.Top
+        Panel13.Location = New Point(0, 0)
+        Panel13.Name = "Panel13"
+        Panel13.Size = New Size(0, 178)
+        Panel13.TabIndex = 24
+        ' 
+        ' PictureBox2
+        ' 
+        PictureBox2.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
+        PictureBox2.Location = New Point(70, 24)
+        PictureBox2.Name = "PictureBox2"
+        PictureBox2.Size = New Size(68, 72)
+        PictureBox2.TabIndex = 24
+        PictureBox2.TabStop = False
+        ' 
+        ' btnNavExit
+        ' 
+        btnNavExit.Cursor = Cursors.Hand
+        btnNavExit.FlatAppearance.BorderSize = 0
+        btnNavExit.FlatStyle = FlatStyle.Flat
+        btnNavExit.Image = CType(resources.GetObject("btnNavExit.Image"), Image)
+        btnNavExit.Location = New Point(166, 6)
+        btnNavExit.Name = "btnNavExit"
+        btnNavExit.Size = New Size(31, 28)
+        btnNavExit.TabIndex = 23
+        btnNavExit.UseVisualStyleBackColor = True
+        ' 
+        ' Panel1
+        ' 
+        Panel1.BackColor = Color.FromArgb(CByte(0), CByte(64), CByte(0))
+        Panel1.Location = New Point(418, 98)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(100, 2)
+        Panel1.TabIndex = 25
+        ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.Font = New Font("Arial Black", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label7.Location = New Point(344, 65)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(235, 30)
+        Label7.TabIndex = 26
+        Label7.Text = "VEGETABLE SEEDS"
+        ' 
+        ' PictureBox15
+        ' 
+        PictureBox15.BackgroundImage = CType(resources.GetObject("PictureBox15.BackgroundImage"), Image)
+        PictureBox15.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox15.Location = New Point(897, 226)
+        PictureBox15.Name = "PictureBox15"
+        PictureBox15.Size = New Size(57, 48)
+        PictureBox15.TabIndex = 41
+        PictureBox15.TabStop = False
+        ' 
+        ' PictureBox14
+        ' 
+        PictureBox14.BackgroundImage = CType(resources.GetObject("PictureBox14.BackgroundImage"), Image)
+        PictureBox14.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox14.Location = New Point(-8, 415)
+        PictureBox14.Name = "PictureBox14"
+        PictureBox14.Size = New Size(41, 88)
+        PictureBox14.TabIndex = 40
+        PictureBox14.TabStop = False
+        ' 
+        ' PictureBox13
+        ' 
+        PictureBox13.BackgroundImage = CType(resources.GetObject("PictureBox13.BackgroundImage"), Image)
+        PictureBox13.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox13.Location = New Point(183, 46)
+        PictureBox13.Name = "PictureBox13"
+        PictureBox13.Size = New Size(84, 63)
+        PictureBox13.TabIndex = 39
+        PictureBox13.TabStop = False
+        ' 
+        ' PictureBox12
+        ' 
+        PictureBox12.BackgroundImage = CType(resources.GetObject("PictureBox12.BackgroundImage"), Image)
+        PictureBox12.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox12.Location = New Point(704, 65)
+        PictureBox12.Name = "PictureBox12"
+        PictureBox12.Size = New Size(57, 43)
+        PictureBox12.TabIndex = 38
+        PictureBox12.TabStop = False
+        ' 
+        ' PictureBox11
+        ' 
+        PictureBox11.BackgroundImage = CType(resources.GetObject("PictureBox11.BackgroundImage"), Image)
+        PictureBox11.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox11.Location = New Point(845, 46)
+        PictureBox11.Name = "PictureBox11"
+        PictureBox11.Size = New Size(57, 43)
+        PictureBox11.TabIndex = 37
+        PictureBox11.TabStop = False
+        ' 
+        ' PictureBox16
+        ' 
+        PictureBox16.BackgroundImage = CType(resources.GetObject("PictureBox16.BackgroundImage"), Image)
+        PictureBox16.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox16.Location = New Point(81, 75)
+        PictureBox16.Name = "PictureBox16"
+        PictureBox16.Size = New Size(57, 48)
+        PictureBox16.TabIndex = 42
+        PictureBox16.TabStop = False
+        ' 
+        ' PictureBox17
+        ' 
+        PictureBox17.BackgroundImage = CType(resources.GetObject("PictureBox17.BackgroundImage"), Image)
+        PictureBox17.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox17.Location = New Point(890, 392)
+        PictureBox17.Name = "PictureBox17"
+        PictureBox17.Size = New Size(37, 58)
+        PictureBox17.TabIndex = 43
+        PictureBox17.TabStop = False
+        ' 
         ' VegetablePage
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(252), CByte(251), CByte(244))
         ClientSize = New Size(932, 548)
+        Controls.Add(PictureBox17)
+        Controls.Add(PictureBox16)
+        Controls.Add(PictureBox15)
+        Controls.Add(PictureBox14)
+        Controls.Add(PictureBox13)
+        Controls.Add(PictureBox12)
+        Controls.Add(PictureBox11)
         Controls.Add(Label7)
         Controls.Add(Panel1)
         Controls.Add(Nav)
@@ -994,12 +1085,9 @@ Partial Class VegetablePage
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         Panel5.ResumeLayout(False)
         Panel5.PerformLayout()
+        CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         Panel4.ResumeLayout(False)
         Panel4.PerformLayout()
-        Nav.ResumeLayout(False)
-        Panel13.ResumeLayout(False)
-        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
         Panel6.ResumeLayout(False)
         Panel6.PerformLayout()
@@ -1019,6 +1107,16 @@ Partial Class VegetablePage
         Panel11.ResumeLayout(False)
         Panel11.PerformLayout()
         CType(PictureBox10, ComponentModel.ISupportInitialize).EndInit()
+        Nav.ResumeLayout(False)
+        Panel13.ResumeLayout(False)
+        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox15, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox14, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox13, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox12, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox11, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox16, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox17, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -1092,4 +1190,11 @@ Partial Class VegetablePage
     Friend WithEvents PictureBox10 As PictureBox
     Friend WithEvents Panel12 As Panel
     Friend WithEvents Label7 As Label
+    Friend WithEvents PictureBox15 As PictureBox
+    Friend WithEvents PictureBox14 As PictureBox
+    Friend WithEvents PictureBox13 As PictureBox
+    Friend WithEvents PictureBox12 As PictureBox
+    Friend WithEvents PictureBox11 As PictureBox
+    Friend WithEvents PictureBox16 As PictureBox
+    Friend WithEvents PictureBox17 As PictureBox
 End Class
