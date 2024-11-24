@@ -36,55 +36,55 @@ Partial Class FruitSeeds
         Button3 = New Button()
         FlowLayoutPanel1 = New FlowLayoutPanel()
         Panel3 = New Panel()
-        Button2 = New Button()
+        AppleViewGuide = New Button()
         Button1 = New Button()
         Label2 = New Label()
         Label1 = New Label()
         PictureBox1 = New PictureBox()
         Panel5 = New Panel()
-        Button4 = New Button()
+        AvocadoViewGuide = New Button()
         Button5 = New Button()
         Label3 = New Label()
         Label4 = New Label()
         PictureBox3 = New PictureBox()
         Panel4 = New Panel()
-        Button6 = New Button()
+        OrangeViewGuide = New Button()
         Button7 = New Button()
         Label5 = New Label()
         Label6 = New Label()
         PictureBox4 = New PictureBox()
         Panel6 = New Panel()
-        Button8 = New Button()
+        WaterVIewGuide = New Button()
         Button9 = New Button()
         Label8 = New Label()
         Label9 = New Label()
         PictureBox5 = New PictureBox()
         Panel7 = New Panel()
-        Button10 = New Button()
+        LemonVIewGuide = New Button()
         Button11 = New Button()
         Label10 = New Label()
         Label11 = New Label()
         PictureBox6 = New PictureBox()
         Panel8 = New Panel()
-        Button12 = New Button()
+        PapayaViewGuide = New Button()
         Button13 = New Button()
         Label12 = New Label()
         Label13 = New Label()
         PictureBox7 = New PictureBox()
         Panel9 = New Panel()
-        Button14 = New Button()
+        MangoViewGuide = New Button()
         Button15 = New Button()
         Label14 = New Label()
         Label15 = New Label()
         PictureBox8 = New PictureBox()
         Panel10 = New Panel()
-        Button16 = New Button()
+        PomeViewGuide = New Button()
         Button17 = New Button()
         Label16 = New Label()
         Label17 = New Label()
         PictureBox9 = New PictureBox()
         Panel11 = New Panel()
-        Button18 = New Button()
+        PeachViewGuide = New Button()
         Button19 = New Button()
         Label18 = New Label()
         Label19 = New Label()
@@ -311,7 +311,7 @@ Partial Class FruitSeeds
         ' Panel3
         ' 
         Panel3.BorderStyle = BorderStyle.FixedSingle
-        Panel3.Controls.Add(Button2)
+        Panel3.Controls.Add(AppleViewGuide)
         Panel3.Controls.Add(Button1)
         Panel3.Controls.Add(Label2)
         Panel3.Controls.Add(Label1)
@@ -322,19 +322,19 @@ Partial Class FruitSeeds
         Panel3.Size = New Size(246, 323)
         Panel3.TabIndex = 0
         ' 
-        ' Button2
+        ' AppleViewGuide
         ' 
-        Button2.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Button2.FlatAppearance.BorderSize = 0
-        Button2.FlatStyle = FlatStyle.Flat
-        Button2.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button2.ForeColor = SystemColors.ButtonHighlight
-        Button2.Location = New Point(37, 262)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(169, 39)
-        Button2.TabIndex = 4
-        Button2.Text = "VIEW GUIDE"
-        Button2.UseVisualStyleBackColor = False
+        AppleViewGuide.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        AppleViewGuide.FlatAppearance.BorderSize = 0
+        AppleViewGuide.FlatStyle = FlatStyle.Flat
+        AppleViewGuide.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        AppleViewGuide.ForeColor = SystemColors.ButtonHighlight
+        AppleViewGuide.Location = New Point(37, 262)
+        AppleViewGuide.Name = "AppleViewGuide"
+        AppleViewGuide.Size = New Size(169, 39)
+        AppleViewGuide.TabIndex = 4
+        AppleViewGuide.Text = "VIEW GUIDE"
+        AppleViewGuide.UseVisualStyleBackColor = False
         ' 
         ' Button1
         ' 
@@ -383,7 +383,7 @@ Partial Class FruitSeeds
         ' Panel5
         ' 
         Panel5.BorderStyle = BorderStyle.FixedSingle
-        Panel5.Controls.Add(Button4)
+        Panel5.Controls.Add(AvocadoViewGuide)
         Panel5.Controls.Add(Button5)
         Panel5.Controls.Add(Label3)
         Panel5.Controls.Add(Label4)
@@ -394,19 +394,19 @@ Partial Class FruitSeeds
         Panel5.Size = New Size(246, 323)
         Panel5.TabIndex = 1
         ' 
-        ' Button4
+        ' AvocadoViewGuide
         ' 
-        Button4.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Button4.FlatAppearance.BorderSize = 0
-        Button4.FlatStyle = FlatStyle.Flat
-        Button4.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button4.ForeColor = SystemColors.ButtonHighlight
-        Button4.Location = New Point(38, 261)
-        Button4.Name = "Button4"
-        Button4.Size = New Size(169, 39)
-        Button4.TabIndex = 9
-        Button4.Text = "VIEW GUIDE"
-        Button4.UseVisualStyleBackColor = False
+        AvocadoViewGuide.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        AvocadoViewGuide.FlatAppearance.BorderSize = 0
+        AvocadoViewGuide.FlatStyle = FlatStyle.Flat
+        AvocadoViewGuide.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        AvocadoViewGuide.ForeColor = SystemColors.ButtonHighlight
+        AvocadoViewGuide.Location = New Point(38, 261)
+        AvocadoViewGuide.Name = "AvocadoViewGuide"
+        AvocadoViewGuide.Size = New Size(169, 39)
+        AvocadoViewGuide.TabIndex = 9
+        AvocadoViewGuide.Text = "VIEW GUIDE"
+        AvocadoViewGuide.UseVisualStyleBackColor = False
         ' 
         ' Button5
         ' 
@@ -428,9 +428,9 @@ Partial Class FruitSeeds
         Label3.Font = New Font("Calibri", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label3.Location = New Point(38, 188)
         Label3.Name = "Label3"
-        Label3.Size = New Size(68, 15)
+        Label3.Size = New Size(89, 15)
         Label3.TabIndex = 7
-        Label3.Text = "Price: ₱ 50 "
+        Label3.Text = "Price: ₱ 100.00"
         ' 
         ' Label4
         ' 
@@ -438,9 +438,9 @@ Partial Class FruitSeeds
         Label4.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label4.Location = New Point(38, 161)
         Label4.Name = "Label4"
-        Label4.Size = New Size(112, 15)
+        Label4.Size = New Size(101, 15)
         Label4.TabIndex = 6
-        Label4.Text = "PETCAHY SEEDS"
+        Label4.Text = "AVOCADO PITS"
         ' 
         ' PictureBox3
         ' 
@@ -455,7 +455,7 @@ Partial Class FruitSeeds
         ' Panel4
         ' 
         Panel4.BorderStyle = BorderStyle.FixedSingle
-        Panel4.Controls.Add(Button6)
+        Panel4.Controls.Add(OrangeViewGuide)
         Panel4.Controls.Add(Button7)
         Panel4.Controls.Add(Label5)
         Panel4.Controls.Add(Label6)
@@ -466,19 +466,19 @@ Partial Class FruitSeeds
         Panel4.Size = New Size(246, 323)
         Panel4.TabIndex = 1
         ' 
-        ' Button6
+        ' OrangeViewGuide
         ' 
-        Button6.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Button6.FlatAppearance.BorderSize = 0
-        Button6.FlatStyle = FlatStyle.Flat
-        Button6.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button6.ForeColor = SystemColors.ButtonHighlight
-        Button6.Location = New Point(38, 261)
-        Button6.Name = "Button6"
-        Button6.Size = New Size(169, 39)
-        Button6.TabIndex = 14
-        Button6.Text = "VIEW GUIDE"
-        Button6.UseVisualStyleBackColor = False
+        OrangeViewGuide.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        OrangeViewGuide.FlatAppearance.BorderSize = 0
+        OrangeViewGuide.FlatStyle = FlatStyle.Flat
+        OrangeViewGuide.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        OrangeViewGuide.ForeColor = SystemColors.ButtonHighlight
+        OrangeViewGuide.Location = New Point(38, 261)
+        OrangeViewGuide.Name = "OrangeViewGuide"
+        OrangeViewGuide.Size = New Size(169, 39)
+        OrangeViewGuide.TabIndex = 14
+        OrangeViewGuide.Text = "VIEW GUIDE"
+        OrangeViewGuide.UseVisualStyleBackColor = False
         ' 
         ' Button7
         ' 
@@ -500,9 +500,9 @@ Partial Class FruitSeeds
         Label5.Font = New Font("Calibri", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label5.Location = New Point(38, 188)
         Label5.Name = "Label5"
-        Label5.Size = New Size(68, 15)
+        Label5.Size = New Size(82, 15)
         Label5.TabIndex = 12
-        Label5.Text = "Price: ₱ 50 "
+        Label5.Text = "Price: ₱ 43.00"
         ' 
         ' Label6
         ' 
@@ -510,9 +510,9 @@ Partial Class FruitSeeds
         Label6.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label6.Location = New Point(38, 161)
         Label6.Name = "Label6"
-        Label6.Size = New Size(112, 15)
+        Label6.Size = New Size(105, 15)
         Label6.TabIndex = 11
-        Label6.Text = "PETCAHY SEEDS"
+        Label6.Text = "ORANGE SEEDS"
         ' 
         ' PictureBox4
         ' 
@@ -527,7 +527,7 @@ Partial Class FruitSeeds
         ' Panel6
         ' 
         Panel6.BorderStyle = BorderStyle.FixedSingle
-        Panel6.Controls.Add(Button8)
+        Panel6.Controls.Add(WaterVIewGuide)
         Panel6.Controls.Add(Button9)
         Panel6.Controls.Add(Label8)
         Panel6.Controls.Add(Label9)
@@ -538,19 +538,19 @@ Partial Class FruitSeeds
         Panel6.Size = New Size(246, 323)
         Panel6.TabIndex = 2
         ' 
-        ' Button8
+        ' WaterVIewGuide
         ' 
-        Button8.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Button8.FlatAppearance.BorderSize = 0
-        Button8.FlatStyle = FlatStyle.Flat
-        Button8.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button8.ForeColor = SystemColors.ButtonHighlight
-        Button8.Location = New Point(37, 262)
-        Button8.Name = "Button8"
-        Button8.Size = New Size(169, 39)
-        Button8.TabIndex = 4
-        Button8.Text = "VIEW GUIDE"
-        Button8.UseVisualStyleBackColor = False
+        WaterVIewGuide.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        WaterVIewGuide.FlatAppearance.BorderSize = 0
+        WaterVIewGuide.FlatStyle = FlatStyle.Flat
+        WaterVIewGuide.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        WaterVIewGuide.ForeColor = SystemColors.ButtonHighlight
+        WaterVIewGuide.Location = New Point(37, 262)
+        WaterVIewGuide.Name = "WaterVIewGuide"
+        WaterVIewGuide.Size = New Size(169, 39)
+        WaterVIewGuide.TabIndex = 4
+        WaterVIewGuide.Text = "VIEW GUIDE"
+        WaterVIewGuide.UseVisualStyleBackColor = False
         ' 
         ' Button9
         ' 
@@ -572,9 +572,9 @@ Partial Class FruitSeeds
         Label8.Font = New Font("Calibri", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label8.Location = New Point(37, 189)
         Label8.Name = "Label8"
-        Label8.Size = New Size(68, 15)
+        Label8.Size = New Size(85, 15)
         Label8.TabIndex = 2
-        Label8.Text = "Price: ₱ 50 "
+        Label8.Text = "Price: ₱ 14.00 "
         ' 
         ' Label9
         ' 
@@ -582,9 +582,9 @@ Partial Class FruitSeeds
         Label9.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label9.Location = New Point(37, 162)
         Label9.Name = "Label9"
-        Label9.Size = New Size(112, 15)
+        Label9.Size = New Size(139, 15)
         Label9.TabIndex = 1
-        Label9.Text = "PETCAHY SEEDS"
+        Label9.Text = "WATERMELON SEEDS"
         ' 
         ' PictureBox5
         ' 
@@ -599,7 +599,7 @@ Partial Class FruitSeeds
         ' Panel7
         ' 
         Panel7.BorderStyle = BorderStyle.FixedSingle
-        Panel7.Controls.Add(Button10)
+        Panel7.Controls.Add(LemonVIewGuide)
         Panel7.Controls.Add(Button11)
         Panel7.Controls.Add(Label10)
         Panel7.Controls.Add(Label11)
@@ -610,19 +610,19 @@ Partial Class FruitSeeds
         Panel7.Size = New Size(246, 323)
         Panel7.TabIndex = 3
         ' 
-        ' Button10
+        ' LemonVIewGuide
         ' 
-        Button10.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Button10.FlatAppearance.BorderSize = 0
-        Button10.FlatStyle = FlatStyle.Flat
-        Button10.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button10.ForeColor = SystemColors.ButtonHighlight
-        Button10.Location = New Point(38, 261)
-        Button10.Name = "Button10"
-        Button10.Size = New Size(169, 39)
-        Button10.TabIndex = 9
-        Button10.Text = "VIEW GUIDE"
-        Button10.UseVisualStyleBackColor = False
+        LemonVIewGuide.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        LemonVIewGuide.FlatAppearance.BorderSize = 0
+        LemonVIewGuide.FlatStyle = FlatStyle.Flat
+        LemonVIewGuide.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        LemonVIewGuide.ForeColor = SystemColors.ButtonHighlight
+        LemonVIewGuide.Location = New Point(38, 261)
+        LemonVIewGuide.Name = "LemonVIewGuide"
+        LemonVIewGuide.Size = New Size(169, 39)
+        LemonVIewGuide.TabIndex = 9
+        LemonVIewGuide.Text = "VIEW GUIDE"
+        LemonVIewGuide.UseVisualStyleBackColor = False
         ' 
         ' Button11
         ' 
@@ -644,9 +644,9 @@ Partial Class FruitSeeds
         Label10.Font = New Font("Calibri", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label10.Location = New Point(38, 188)
         Label10.Name = "Label10"
-        Label10.Size = New Size(68, 15)
+        Label10.Size = New Size(85, 15)
         Label10.TabIndex = 7
-        Label10.Text = "Price: ₱ 50 "
+        Label10.Text = "Price: ₱ 14.00 "
         ' 
         ' Label11
         ' 
@@ -654,9 +654,9 @@ Partial Class FruitSeeds
         Label11.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label11.Location = New Point(38, 161)
         Label11.Name = "Label11"
-        Label11.Size = New Size(112, 15)
+        Label11.Size = New Size(95, 15)
         Label11.TabIndex = 6
-        Label11.Text = "PETCAHY SEEDS"
+        Label11.Text = "LEMON SEEDS"
         ' 
         ' PictureBox6
         ' 
@@ -671,7 +671,7 @@ Partial Class FruitSeeds
         ' Panel8
         ' 
         Panel8.BorderStyle = BorderStyle.FixedSingle
-        Panel8.Controls.Add(Button12)
+        Panel8.Controls.Add(PapayaViewGuide)
         Panel8.Controls.Add(Button13)
         Panel8.Controls.Add(Label12)
         Panel8.Controls.Add(Label13)
@@ -682,19 +682,19 @@ Partial Class FruitSeeds
         Panel8.Size = New Size(246, 323)
         Panel8.TabIndex = 4
         ' 
-        ' Button12
+        ' PapayaViewGuide
         ' 
-        Button12.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Button12.FlatAppearance.BorderSize = 0
-        Button12.FlatStyle = FlatStyle.Flat
-        Button12.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button12.ForeColor = SystemColors.ButtonHighlight
-        Button12.Location = New Point(38, 261)
-        Button12.Name = "Button12"
-        Button12.Size = New Size(169, 39)
-        Button12.TabIndex = 14
-        Button12.Text = "VIEW GUIDE"
-        Button12.UseVisualStyleBackColor = False
+        PapayaViewGuide.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        PapayaViewGuide.FlatAppearance.BorderSize = 0
+        PapayaViewGuide.FlatStyle = FlatStyle.Flat
+        PapayaViewGuide.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        PapayaViewGuide.ForeColor = SystemColors.ButtonHighlight
+        PapayaViewGuide.Location = New Point(38, 261)
+        PapayaViewGuide.Name = "PapayaViewGuide"
+        PapayaViewGuide.Size = New Size(169, 39)
+        PapayaViewGuide.TabIndex = 14
+        PapayaViewGuide.Text = "VIEW GUIDE"
+        PapayaViewGuide.UseVisualStyleBackColor = False
         ' 
         ' Button13
         ' 
@@ -716,9 +716,9 @@ Partial Class FruitSeeds
         Label12.Font = New Font("Calibri", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label12.Location = New Point(38, 188)
         Label12.Name = "Label12"
-        Label12.Size = New Size(68, 15)
+        Label12.Size = New Size(82, 15)
         Label12.TabIndex = 12
-        Label12.Text = "Price: ₱ 50 "
+        Label12.Text = "Price: ₱ 80.00"
         ' 
         ' Label13
         ' 
@@ -726,9 +726,9 @@ Partial Class FruitSeeds
         Label13.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label13.Location = New Point(38, 161)
         Label13.Name = "Label13"
-        Label13.Size = New Size(112, 15)
+        Label13.Size = New Size(100, 15)
         Label13.TabIndex = 11
-        Label13.Text = "PETCAHY SEEDS"
+        Label13.Text = "PAPAYA SEEDS"
         ' 
         ' PictureBox7
         ' 
@@ -743,7 +743,7 @@ Partial Class FruitSeeds
         ' Panel9
         ' 
         Panel9.BorderStyle = BorderStyle.FixedSingle
-        Panel9.Controls.Add(Button14)
+        Panel9.Controls.Add(MangoViewGuide)
         Panel9.Controls.Add(Button15)
         Panel9.Controls.Add(Label14)
         Panel9.Controls.Add(Label15)
@@ -754,19 +754,19 @@ Partial Class FruitSeeds
         Panel9.Size = New Size(246, 323)
         Panel9.TabIndex = 5
         ' 
-        ' Button14
+        ' MangoViewGuide
         ' 
-        Button14.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Button14.FlatAppearance.BorderSize = 0
-        Button14.FlatStyle = FlatStyle.Flat
-        Button14.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button14.ForeColor = SystemColors.ButtonHighlight
-        Button14.Location = New Point(37, 262)
-        Button14.Name = "Button14"
-        Button14.Size = New Size(169, 39)
-        Button14.TabIndex = 4
-        Button14.Text = "VIEW GUIDE"
-        Button14.UseVisualStyleBackColor = False
+        MangoViewGuide.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        MangoViewGuide.FlatAppearance.BorderSize = 0
+        MangoViewGuide.FlatStyle = FlatStyle.Flat
+        MangoViewGuide.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        MangoViewGuide.ForeColor = SystemColors.ButtonHighlight
+        MangoViewGuide.Location = New Point(37, 262)
+        MangoViewGuide.Name = "MangoViewGuide"
+        MangoViewGuide.Size = New Size(169, 39)
+        MangoViewGuide.TabIndex = 4
+        MangoViewGuide.Text = "VIEW GUIDE"
+        MangoViewGuide.UseVisualStyleBackColor = False
         ' 
         ' Button15
         ' 
@@ -788,9 +788,9 @@ Partial Class FruitSeeds
         Label14.Font = New Font("Calibri", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label14.Location = New Point(37, 189)
         Label14.Name = "Label14"
-        Label14.Size = New Size(68, 15)
+        Label14.Size = New Size(82, 15)
         Label14.TabIndex = 2
-        Label14.Text = "Price: ₱ 50 "
+        Label14.Text = "Price: ₱ 90.00"
         ' 
         ' Label15
         ' 
@@ -798,9 +798,9 @@ Partial Class FruitSeeds
         Label15.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label15.Location = New Point(37, 162)
         Label15.Name = "Label15"
-        Label15.Size = New Size(112, 15)
+        Label15.Size = New Size(98, 15)
         Label15.TabIndex = 1
-        Label15.Text = "PETCAHY SEEDS"
+        Label15.Text = "MANGO SEEDS"
         ' 
         ' PictureBox8
         ' 
@@ -815,7 +815,7 @@ Partial Class FruitSeeds
         ' Panel10
         ' 
         Panel10.BorderStyle = BorderStyle.FixedSingle
-        Panel10.Controls.Add(Button16)
+        Panel10.Controls.Add(PomeViewGuide)
         Panel10.Controls.Add(Button17)
         Panel10.Controls.Add(Label16)
         Panel10.Controls.Add(Label17)
@@ -826,19 +826,19 @@ Partial Class FruitSeeds
         Panel10.Size = New Size(246, 323)
         Panel10.TabIndex = 6
         ' 
-        ' Button16
+        ' PomeViewGuide
         ' 
-        Button16.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Button16.FlatAppearance.BorderSize = 0
-        Button16.FlatStyle = FlatStyle.Flat
-        Button16.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button16.ForeColor = SystemColors.ButtonHighlight
-        Button16.Location = New Point(38, 261)
-        Button16.Name = "Button16"
-        Button16.Size = New Size(169, 39)
-        Button16.TabIndex = 9
-        Button16.Text = "VIEW GUIDE"
-        Button16.UseVisualStyleBackColor = False
+        PomeViewGuide.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        PomeViewGuide.FlatAppearance.BorderSize = 0
+        PomeViewGuide.FlatStyle = FlatStyle.Flat
+        PomeViewGuide.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        PomeViewGuide.ForeColor = SystemColors.ButtonHighlight
+        PomeViewGuide.Location = New Point(38, 261)
+        PomeViewGuide.Name = "PomeViewGuide"
+        PomeViewGuide.Size = New Size(169, 39)
+        PomeViewGuide.TabIndex = 9
+        PomeViewGuide.Text = "VIEW GUIDE"
+        PomeViewGuide.UseVisualStyleBackColor = False
         ' 
         ' Button17
         ' 
@@ -860,9 +860,9 @@ Partial Class FruitSeeds
         Label16.Font = New Font("Calibri", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label16.Location = New Point(38, 188)
         Label16.Name = "Label16"
-        Label16.Size = New Size(68, 15)
+        Label16.Size = New Size(82, 15)
         Label16.TabIndex = 7
-        Label16.Text = "Price: ₱ 50 "
+        Label16.Text = "Price: ₱ 12.00"
         ' 
         ' Label17
         ' 
@@ -870,9 +870,9 @@ Partial Class FruitSeeds
         Label17.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label17.Location = New Point(38, 161)
         Label17.Name = "Label17"
-        Label17.Size = New Size(112, 15)
+        Label17.Size = New Size(147, 15)
         Label17.TabIndex = 6
-        Label17.Text = "PETCAHY SEEDS"
+        Label17.Text = "POMEGRANATE SEEDS"
         ' 
         ' PictureBox9
         ' 
@@ -887,7 +887,7 @@ Partial Class FruitSeeds
         ' Panel11
         ' 
         Panel11.BorderStyle = BorderStyle.FixedSingle
-        Panel11.Controls.Add(Button18)
+        Panel11.Controls.Add(PeachViewGuide)
         Panel11.Controls.Add(Button19)
         Panel11.Controls.Add(Label18)
         Panel11.Controls.Add(Label19)
@@ -898,19 +898,19 @@ Partial Class FruitSeeds
         Panel11.Size = New Size(246, 323)
         Panel11.TabIndex = 7
         ' 
-        ' Button18
+        ' PeachViewGuide
         ' 
-        Button18.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Button18.FlatAppearance.BorderSize = 0
-        Button18.FlatStyle = FlatStyle.Flat
-        Button18.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button18.ForeColor = SystemColors.ButtonHighlight
-        Button18.Location = New Point(38, 261)
-        Button18.Name = "Button18"
-        Button18.Size = New Size(169, 39)
-        Button18.TabIndex = 14
-        Button18.Text = "VIEW GUIDE"
-        Button18.UseVisualStyleBackColor = False
+        PeachViewGuide.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        PeachViewGuide.FlatAppearance.BorderSize = 0
+        PeachViewGuide.FlatStyle = FlatStyle.Flat
+        PeachViewGuide.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        PeachViewGuide.ForeColor = SystemColors.ButtonHighlight
+        PeachViewGuide.Location = New Point(38, 261)
+        PeachViewGuide.Name = "PeachViewGuide"
+        PeachViewGuide.Size = New Size(169, 39)
+        PeachViewGuide.TabIndex = 14
+        PeachViewGuide.Text = "VIEW GUIDE"
+        PeachViewGuide.UseVisualStyleBackColor = False
         ' 
         ' Button19
         ' 
@@ -932,9 +932,9 @@ Partial Class FruitSeeds
         Label18.Font = New Font("Calibri", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label18.Location = New Point(38, 188)
         Label18.Name = "Label18"
-        Label18.Size = New Size(68, 15)
+        Label18.Size = New Size(82, 15)
         Label18.TabIndex = 12
-        Label18.Text = "Price: ₱ 50 "
+        Label18.Text = "Price: ₱ 24.00"
         ' 
         ' Label19
         ' 
@@ -942,9 +942,9 @@ Partial Class FruitSeeds
         Label19.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label19.Location = New Point(38, 161)
         Label19.Name = "Label19"
-        Label19.Size = New Size(112, 15)
+        Label19.Size = New Size(82, 15)
         Label19.TabIndex = 11
-        Label19.Text = "PETCAHY SEEDS"
+        Label19.Text = "PEACH PITS"
         ' 
         ' PictureBox10
         ' 
@@ -1104,55 +1104,55 @@ Partial Class FruitSeeds
     Friend WithEvents Button3 As Button
     Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
     Friend WithEvents Panel3 As Panel
-    Friend WithEvents Button2 As Button
+    Friend WithEvents AppleViewGuide As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Panel5 As Panel
-    Friend WithEvents Button4 As Button
+    Friend WithEvents AvocadoViewGuide As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Panel4 As Panel
-    Friend WithEvents Button6 As Button
+    Friend WithEvents OrangeViewGuide As Button
     Friend WithEvents Button7 As Button
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents Panel6 As Panel
-    Friend WithEvents Button8 As Button
+    Friend WithEvents WaterVIewGuide As Button
     Friend WithEvents Button9 As Button
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents Panel7 As Panel
-    Friend WithEvents Button10 As Button
+    Friend WithEvents LemonVIewGuide As Button
     Friend WithEvents Button11 As Button
     Friend WithEvents Label10 As Label
     Friend WithEvents Label11 As Label
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents Panel8 As Panel
-    Friend WithEvents Button12 As Button
+    Friend WithEvents PapayaViewGuide As Button
     Friend WithEvents Button13 As Button
     Friend WithEvents Label12 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents Panel9 As Panel
-    Friend WithEvents Button14 As Button
+    Friend WithEvents MangoViewGuide As Button
     Friend WithEvents Button15 As Button
     Friend WithEvents Label14 As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents PictureBox8 As PictureBox
     Friend WithEvents Panel10 As Panel
-    Friend WithEvents Button16 As Button
+    Friend WithEvents PomeViewGuide As Button
     Friend WithEvents Button17 As Button
     Friend WithEvents Label16 As Label
     Friend WithEvents Label17 As Label
     Friend WithEvents PictureBox9 As PictureBox
     Friend WithEvents Panel11 As Panel
-    Friend WithEvents Button18 As Button
+    Friend WithEvents PeachViewGuide As Button
     Friend WithEvents Button19 As Button
     Friend WithEvents Label18 As Label
     Friend WithEvents Label19 As Label
