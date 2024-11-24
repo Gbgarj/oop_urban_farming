@@ -244,9 +244,9 @@ Partial Class VegetablePage
         Label1.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.Location = New Point(37, 162)
         Label1.Name = "Label1"
-        Label1.Size = New Size(112, 15)
+        Label1.Size = New Size(104, 15)
         Label1.TabIndex = 1
-        Label1.Text = "PETCAHY SEEDS"
+        Label1.Text = "TOMATO SEEDS"
         ' 
         ' PictureBox1
         ' 
@@ -316,9 +316,9 @@ Partial Class VegetablePage
         Label4.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label4.Location = New Point(38, 161)
         Label4.Name = "Label4"
-        Label4.Size = New Size(112, 15)
+        Label4.Size = New Size(124, 15)
         Label4.TabIndex = 6
-        Label4.Text = "PETCAHY SEEDS"
+        Label4.Text = "CUCUMBER SEEDS"
         ' 
         ' PictureBox3
         ' 
@@ -388,9 +388,9 @@ Partial Class VegetablePage
         Label6.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label6.Location = New Point(38, 161)
         Label6.Name = "Label6"
-        Label6.Size = New Size(112, 15)
+        Label6.Size = New Size(91, 15)
         Label6.TabIndex = 11
-        Label6.Text = "PETCAHY SEEDS"
+        Label6.Text = "SITAW SEEDS"
         ' 
         ' PictureBox4
         ' 
@@ -460,9 +460,9 @@ Partial Class VegetablePage
         Label9.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label9.Location = New Point(37, 162)
         Label9.Name = "Label9"
-        Label9.Size = New Size(112, 15)
+        Label9.Size = New Size(88, 15)
         Label9.TabIndex = 1
-        Label9.Text = "PETCAHY SEEDS"
+        Label9.Text = "OKRA SEEDS"
         ' 
         ' PictureBox5
         ' 
@@ -532,9 +532,9 @@ Partial Class VegetablePage
         Label11.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label11.Location = New Point(38, 161)
         Label11.Name = "Label11"
-        Label11.Size = New Size(112, 15)
+        Label11.Size = New Size(109, 15)
         Label11.TabIndex = 6
-        Label11.Text = "PETCAHY SEEDS"
+        Label11.Text = "LETTUCE SEEDS"
         ' 
         ' PictureBox6
         ' 
@@ -604,9 +604,9 @@ Partial Class VegetablePage
         Label13.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label13.Location = New Point(38, 161)
         Label13.Name = "Label13"
-        Label13.Size = New Size(112, 15)
+        Label13.Size = New Size(111, 15)
         Label13.TabIndex = 11
-        Label13.Text = "PETCAHY SEEDS"
+        Label13.Text = "PETCHAY SEEDS"
         ' 
         ' PictureBox7
         ' 
@@ -676,9 +676,9 @@ Partial Class VegetablePage
         Label15.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label15.Location = New Point(37, 162)
         Label15.Name = "Label15"
-        Label15.Size = New Size(112, 15)
+        Label15.Size = New Size(170, 15)
         Label15.TabIndex = 1
-        Label15.Text = "PETCAHY SEEDS"
+        Label15.Text = "ALBINO EGGPLANT SEEDS"
         ' 
         ' PictureBox8
         ' 
@@ -748,9 +748,9 @@ Partial Class VegetablePage
         Label17.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label17.Location = New Point(38, 161)
         Label17.Name = "Label17"
-        Label17.Size = New Size(112, 15)
+        Label17.Size = New Size(104, 15)
         Label17.TabIndex = 6
-        Label17.Text = "PETCAHY SEEDS"
+        Label17.Text = "SQUASH SEEDS"
         ' 
         ' PictureBox9
         ' 
@@ -820,9 +820,9 @@ Partial Class VegetablePage
         Label19.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label19.Location = New Point(38, 161)
         Label19.Name = "Label19"
-        Label19.Size = New Size(112, 15)
+        Label19.Size = New Size(92, 15)
         Label19.TabIndex = 11
-        Label19.Text = "PETCAHY SEEDS"
+        Label19.Text = "ONION SEEDS"
         ' 
         ' PictureBox10
         ' 
