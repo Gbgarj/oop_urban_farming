@@ -8,38 +8,44 @@ Public Class Form1
 
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
-
-
-
-        If String.IsNullOrWhiteSpace(txtUN.Text) Then
-            MessageBox.Show("Please Input Username!", "Try Again", MessageBoxButtons.OKCancel, MessageBoxIcon.Error)
-            txtUN.Focus()
+        ' Validate input fields
+        If String.IsNullOrWhiteSpace(txtUN.Text) OrElse String.IsNullOrWhiteSpace(txtPW.Text) Then
+            MessageBox.Show("Both Username and Password are required!", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Return
         End If
 
+        ' Proceed with login attempt
         con = New MySqlConnection("Server=localhost;Database=urbanfarming;username=root;password=")
-        cmd = New MySqlCommand("SELECT * FRoM `login` WHERE `username` = @username AND `password` = @password", con)
+        cmd = New MySqlCommand("SELECT * FROM `login` WHERE `username` = @username AND `password` = @password", con)
         cmd.Parameters.AddWithValue("@username", txtUN.Text)
         cmd.Parameters.AddWithValue("@password", txtPW.Text)
 
         Dim adapter As New MySqlDataAdapter(cmd)
-
         Dim table As New DataTable
 
-        adapter.Fill(table)
+        Try
+            con.Open()
+            adapter.Fill(table)
+            con.Close()
 
-        If table.Rows.Count = 0 Then
-            MessageBox.Show("Username or Password are Invalid")
-        Else
-            MessageBox.Show("Login Successfully!")
-            VegetablePage.Show()
-            Hide()
-        End If
+            If table.Rows.Count = 0 Then
+                MessageBox.Show("Invalid Username or Password. Please try again.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Else
+                MessageBox.Show("Login Successful!", "Welcome", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                VegetablePage.Show()
+                Me.Hide()
+            End If
+        Catch ex As Exception
+            MessageBox.Show("An error occurred: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Finally
+            If con.State = ConnectionState.Open Then con.Close()
+        End Try
 
+        ' Clear the fields
         txtPW.Text = ""
         txtUN.Text = ""
-
     End Sub
+
 
     Private Sub txtUN_TextChanged(sender As Object, e As EventArgs) Handles txtUN.TextChanged
 
