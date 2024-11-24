@@ -337,7 +337,7 @@ Partial Class FruitSeeds
         Button1.Name = "Button1"
         Button1.Size = New Size(169, 39)
         Button1.TabIndex = 3
-        Button1.Text = "BUY"
+        Button1.Text = "ADD TO CART"
         Button1.UseVisualStyleBackColor = False
         ' 
         ' Label2
@@ -346,9 +346,9 @@ Partial Class FruitSeeds
         Label2.Font = New Font("Calibri", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label2.Location = New Point(37, 189)
         Label2.Name = "Label2"
-        Label2.Size = New Size(68, 15)
+        Label2.Size = New Size(82, 15)
         Label2.TabIndex = 2
-        Label2.Text = "Price: ₱ 50 "
+        Label2.Text = "Price: ₱ 48.00"
         ' 
         ' Label1
         ' 
@@ -356,13 +356,13 @@ Partial Class FruitSeeds
         Label1.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.Location = New Point(37, 162)
         Label1.Name = "Label1"
-        Label1.Size = New Size(112, 15)
+        Label1.Size = New Size(92, 15)
         Label1.TabIndex = 1
-        Label1.Text = "PETCAHY SEEDS"
+        Label1.Text = "APPLE SEEDS"
         ' 
         ' PictureBox1
         ' 
-        PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
+        PictureBox1.BackgroundImage = My.Resources.Resources.appleseeds
         PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox1.Location = New Point(37, 21)
         PictureBox1.Name = "PictureBox1"
@@ -409,7 +409,7 @@ Partial Class FruitSeeds
         Button5.Name = "Button5"
         Button5.Size = New Size(169, 39)
         Button5.TabIndex = 8
-        Button5.Text = "BUY"
+        Button5.Text = "ADD TO CART"
         Button5.UseVisualStyleBackColor = False
         ' 
         ' Label3
@@ -481,7 +481,7 @@ Partial Class FruitSeeds
         Button7.Name = "Button7"
         Button7.Size = New Size(169, 39)
         Button7.TabIndex = 13
-        Button7.Text = "BUY"
+        Button7.Text = "ADD TO CART"
         Button7.UseVisualStyleBackColor = False
         ' 
         ' Label5
@@ -553,7 +553,7 @@ Partial Class FruitSeeds
         Button9.Name = "Button9"
         Button9.Size = New Size(169, 39)
         Button9.TabIndex = 3
-        Button9.Text = "BUY"
+        Button9.Text = "ADD TO CART"
         Button9.UseVisualStyleBackColor = False
         ' 
         ' Label8
@@ -625,7 +625,7 @@ Partial Class FruitSeeds
         Button11.Name = "Button11"
         Button11.Size = New Size(169, 39)
         Button11.TabIndex = 8
-        Button11.Text = "BUY"
+        Button11.Text = "ADD TO CART"
         Button11.UseVisualStyleBackColor = False
         ' 
         ' Label10
@@ -697,7 +697,7 @@ Partial Class FruitSeeds
         Button13.Name = "Button13"
         Button13.Size = New Size(169, 39)
         Button13.TabIndex = 13
-        Button13.Text = "BUY"
+        Button13.Text = "ADD TO CART"
         Button13.UseVisualStyleBackColor = False
         ' 
         ' Label12
@@ -769,7 +769,7 @@ Partial Class FruitSeeds
         Button15.Name = "Button15"
         Button15.Size = New Size(169, 39)
         Button15.TabIndex = 3
-        Button15.Text = "BUY"
+        Button15.Text = "ADD TO CART"
         Button15.UseVisualStyleBackColor = False
         ' 
         ' Label14
@@ -841,7 +841,7 @@ Partial Class FruitSeeds
         Button17.Name = "Button17"
         Button17.Size = New Size(169, 39)
         Button17.TabIndex = 8
-        Button17.Text = "BUY"
+        Button17.Text = "ADD TO CART"
         Button17.UseVisualStyleBackColor = False
         ' 
         ' Label16
@@ -913,7 +913,7 @@ Partial Class FruitSeeds
         Button19.Name = "Button19"
         Button19.Size = New Size(169, 39)
         Button19.TabIndex = 13
-        Button19.Text = "BUY"
+        Button19.Text = "ADD TO CART"
         Button19.UseVisualStyleBackColor = False
         ' 
         ' Label18
