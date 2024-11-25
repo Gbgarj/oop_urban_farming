@@ -77,4 +77,8 @@ Public Class Form1
         txtUN.Text = ""
         txtPW.Text = ""
     End Sub
+
+    Private Sub Form1_Load_1(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

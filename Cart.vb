@@ -1,13 +1,18 @@
-﻿Public Class FruitSeeds
+﻿Public Class Cart
 
     Dim PanelExpanded As Boolean = False
-
-    Private Sub FruitSeeds_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub Cart_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 
-    Private Sub FlowLayoutPanel1_Paint(sender As Object, e As PaintEventArgs) Handles FlowLayoutPanel1.Paint
+    Private Sub btnVege_Click(sender As Object, e As EventArgs) Handles btnVege.Click
+        VegetablePage.Show()
+        Me.Hide()
+    End Sub
 
+    Private Sub btnFruit_Click(sender As Object, e As EventArgs) Handles btnFruit.Click
+        FruitSeeds.Show()
+        Me.Hide()
     End Sub
 
     Private Sub btnNav_Click(sender As Object, e As EventArgs) Handles btnNav.Click
@@ -64,16 +69,6 @@
             Next
             PanelExpanded = True
         End If
-    End Sub
-
-    Private Sub btnVege_Click(sender As Object, e As EventArgs) Handles btnVege.Click
-        VegetablePage.Show()
-        Me.Hide()
-    End Sub
-
-    Private Sub btnCart_Click(sender As Object, e As EventArgs) Handles btnCart.Click
-        Cart.Show()
-        Me.Hide()
     End Sub
 
     Private Sub btnLogout_Click(sender As Object, e As EventArgs) Handles btnLogout.Click

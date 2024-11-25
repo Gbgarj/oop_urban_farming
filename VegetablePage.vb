@@ -90,4 +90,19 @@
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click, Label1.Click
 
     End Sub
+
+    Private Sub btnFruit_Click(sender As Object, e As EventArgs) Handles btnFruit.Click
+        FruitSeeds.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnCart_Click(sender As Object, e As EventArgs) Handles btnCart.Click
+        Cart.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnLogout_Click(sender As Object, e As EventArgs) Handles btnLogout.Click
+        Form1.Show()
+        Me.Hide()
+    End Sub
 End Class
