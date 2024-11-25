@@ -173,7 +173,7 @@ Partial Class Cart
         btnNav.FlatAppearance.BorderSize = 0
         btnNav.FlatStyle = FlatStyle.Flat
         btnNav.Image = CType(resources.GetObject("btnNav.Image"), Image)
-        btnNav.Location = New Point(12, 52)
+        btnNav.Location = New Point(400, 201)
         btnNav.Name = "btnNav"
         btnNav.Size = New Size(43, 43)
         btnNav.TabIndex = 45
