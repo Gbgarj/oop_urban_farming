@@ -90,4 +90,79 @@
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click, Label1.Click
 
     End Sub
+
+    ' Handle View Guide button clicks
+    Private Sub btnViewGuide_Click(sender As Object, e As EventArgs) _
+    Handles btnViewGuideOkra.Click, btnViewGuideLettuce.Click, btnViewGuidePechay.Click,
+            btnViewGuideTomato.Click, btnViewGuideSitaw.Click, btnViewGuideCucumber.Click,
+            btnViewGuideEggplant.Click, btnViewGuideSquash.Click,
+            btnViewGuideOnion.Click
+
+        ' Cast sender to Button to identify which button was clicked
+        Dim btn As Button = DirectCast(sender, Button)
+
+        ' Show the guide panel
+        GuidePanel.Visible = True
+
+        ' Populate the guide content based on the button clicked
+        Select Case btn.Name
+            Case "btnViewGuideOkra"
+                lblGuideTitle.Text = "Okra Guide"
+                txtGuideContent.Text = "Plant okra in full sun. Water regularly and harvest pods when tender."
+                imgGuideImage.Image = Image.FromFile("C:\Users\garab\Downloads\image-removebg-preview (22).png") ' Replace with your actual resource
+
+            Case "btnViewGuideLettuce"
+                lblGuideTitle.Text = "Lettuce Guide"
+                txtGuideContent.Text = "Lettuce grows best in cool weather. Keep soil moist and harvest leaves as needed."
+                imgGuideImage.Image = Image.FromFile("C:\Users\garab\Downloads\image-removebg-preview (23).png")
+
+            Case "btnViewGuidePechay"
+                lblGuideTitle.Text = "Pechay Guide"
+                txtGuideContent.Text = "Pechay thrives in well-drained soil. Water regularly and harvest before bolting."
+                imgGuideImage.Image = Image.FromFile("C:\Users\garab\Downloads\image-removebg-preview (15).png")
+
+        ' Add more cases for other buttons (Tomato, Carrot, etc.)
+            Case "btnViewGuideTomato"
+                lblGuideTitle.Text = "Tomato Guide"
+                txtGuideContent.Text = "Tomatoes need full sun and well-drained soil. Water consistently and use stakes for support."
+                imgGuideImage.Image = Image.FromFile("C:\Users\garab\Downloads\image-removebg-preview (19).png")
+
+            Case "btnViewGuideEggplant"
+                lblGuideTitle.Text = "Eggplant Guide"
+                txtGuideContent.Text = "Carrots grow well in loose, sandy soil. Thin seedlings for better root development."
+                imgGuideImage.Image = Image.FromFile("C:\Users\garab\Downloads\image-removebg-preview (24).png")
+
+            Case "btnViewGuideCucumber"
+                lblGuideTitle.Text = "Cucumber Guide"
+                txtGuideContent.Text = "Lettuce grows best in cool weather. Keep soil moist and harvest leaves as needed."
+                imgGuideImage.Image = Image.FromFile("C:\Users\garab\Downloads\image-removebg-preview (23).png")
+
+            Case "btnViewGuideSitaw"
+                lblGuideTitle.Text = "Sitaw Guide"
+                txtGuideContent.Text = "Pechay thrives in well-drained soil. Water regularly and harvest before bolting."
+                imgGuideImage.Image = Image.FromFile("C:\Users\garab\Downloads\image-removebg-preview (15).png")
+
+        ' Add more cases for other buttons (Tomato, Carrot, etc.)
+            Case "btnViewGuideSquash"
+                lblGuideTitle.Text = "Squash Guide"
+                txtGuideContent.Text = "Tomatoes need full sun and well-drained soil. Water consistently and use stakes for support."
+                imgGuideImage.Image = Image.FromFile("C:\Users\garab\Downloads\image-removebg-preview (19).png")
+
+            Case "btnViewGuideOnion"
+                lblGuideTitle.Text = "Onion Guide"
+                txtGuideContent.Text = "Carrots grow well in loose, sandy soil. Thin seedlings for better root development."
+                imgGuideImage.Image = Image.FromFile("C:\Users\garab\Downloads\image-removebg-preview (24).png")
+
+                ' Continue for the remaining vegetables...
+        End Select
+    End Sub
+
+    ' Close the guide panel
+    Private Sub btnCloseGuide_Click(sender As Object, e As EventArgs) Handles btnCloseGuide.Click
+        GuidePanel.Visible = False
+    End Sub
+
+    Private Sub btnViewGuideTomato_Click(sender As Object, e As EventArgs) Handles btnViewGuideTomato.Click
+
+    End Sub
 End Class

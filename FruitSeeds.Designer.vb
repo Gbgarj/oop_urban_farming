@@ -97,6 +97,9 @@ Partial Class FruitSeeds
         PictureBox13 = New PictureBox()
         PictureBox12 = New PictureBox()
         PictureBox15 = New PictureBox()
+        PictureBox16 = New PictureBox()
+        PictureBox17 = New PictureBox()
+        PictureBox18 = New PictureBox()
         Nav.SuspendLayout()
         Panel13.SuspendLayout()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
@@ -125,6 +128,9 @@ Partial Class FruitSeeds
         CType(PictureBox13, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox12, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox15, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox16, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox17, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox18, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Nav
@@ -1031,11 +1037,44 @@ Partial Class FruitSeeds
         PictureBox15.TabIndex = 36
         PictureBox15.TabStop = False
         ' 
+        ' PictureBox16
+        ' 
+        PictureBox16.BackgroundImage = CType(resources.GetObject("PictureBox16.BackgroundImage"), Image)
+        PictureBox16.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox16.Location = New Point(0, 509)
+        PictureBox16.Name = "PictureBox16"
+        PictureBox16.Size = New Size(82, 40)
+        PictureBox16.TabIndex = 37
+        PictureBox16.TabStop = False
+        ' 
+        ' PictureBox17
+        ' 
+        PictureBox17.BackgroundImage = CType(resources.GetObject("PictureBox17.BackgroundImage"), Image)
+        PictureBox17.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox17.Location = New Point(891, 314)
+        PictureBox17.Name = "PictureBox17"
+        PictureBox17.Size = New Size(57, 48)
+        PictureBox17.TabIndex = 38
+        PictureBox17.TabStop = False
+        ' 
+        ' PictureBox18
+        ' 
+        PictureBox18.BackgroundImage = CType(resources.GetObject("PictureBox18.BackgroundImage"), Image)
+        PictureBox18.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox18.Location = New Point(81, 90)
+        PictureBox18.Name = "PictureBox18"
+        PictureBox18.Size = New Size(57, 43)
+        PictureBox18.TabIndex = 39
+        PictureBox18.TabStop = False
+        ' 
         ' FruitSeeds
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(932, 548)
+        Controls.Add(PictureBox18)
+        Controls.Add(PictureBox17)
+        Controls.Add(PictureBox16)
         Controls.Add(PictureBox15)
         Controls.Add(PictureBox14)
         Controls.Add(PictureBox13)
@@ -1087,6 +1126,9 @@ Partial Class FruitSeeds
         CType(PictureBox13, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox12, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox15, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox16, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox17, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox18, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -1165,4 +1207,7 @@ Partial Class FruitSeeds
     Friend WithEvents PictureBox13 As PictureBox
     Friend WithEvents PictureBox12 As PictureBox
     Friend WithEvents PictureBox15 As PictureBox
+    Friend WithEvents PictureBox16 As PictureBox
+    Friend WithEvents PictureBox17 As PictureBox
+    Friend WithEvents PictureBox18 As PictureBox
 End Class

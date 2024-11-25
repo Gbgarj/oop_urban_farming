@@ -28,55 +28,55 @@ Partial Class VegetablePage
         btnNav = New Button()
         FlowLayoutPanel1 = New FlowLayoutPanel()
         Panel3 = New Panel()
-        Button2 = New Button()
+        btnViewGuideTomato = New Button()
         Button1 = New Button()
         Label2 = New Label()
         Label1 = New Label()
         PictureBox1 = New PictureBox()
         Panel5 = New Panel()
-        Button4 = New Button()
+        btnViewGuideCucumber = New Button()
         Button5 = New Button()
         Label3 = New Label()
         Label4 = New Label()
         PictureBox3 = New PictureBox()
         Panel4 = New Panel()
-        Button6 = New Button()
+        btnViewGuideSitaw = New Button()
         Button7 = New Button()
         Label5 = New Label()
         Label6 = New Label()
         PictureBox4 = New PictureBox()
         Panel6 = New Panel()
-        Button8 = New Button()
+        btnViewGuideOkra = New Button()
         Button9 = New Button()
         Label8 = New Label()
         Label9 = New Label()
         PictureBox5 = New PictureBox()
         Panel7 = New Panel()
-        Button10 = New Button()
+        btnViewGuideLettuce = New Button()
         Button11 = New Button()
         Label10 = New Label()
         Label11 = New Label()
         PictureBox6 = New PictureBox()
         Panel8 = New Panel()
-        Button12 = New Button()
+        btnViewGuidePechay = New Button()
         Button13 = New Button()
         Label12 = New Label()
         Label13 = New Label()
         PictureBox7 = New PictureBox()
         Panel9 = New Panel()
-        Button14 = New Button()
+        btnViewGuideEggplant = New Button()
         Button15 = New Button()
         Label14 = New Label()
         Label15 = New Label()
         PictureBox8 = New PictureBox()
         Panel10 = New Panel()
-        Button16 = New Button()
+        btnViewGuideSquash = New Button()
         Button17 = New Button()
         Label16 = New Label()
         Label17 = New Label()
         PictureBox9 = New PictureBox()
         Panel11 = New Panel()
-        Button18 = New Button()
+        btnViewGuideOnion = New Button()
         Button19 = New Button()
         Label18 = New Label()
         Label19 = New Label()
@@ -99,6 +99,11 @@ Partial Class VegetablePage
         PictureBox11 = New PictureBox()
         PictureBox16 = New PictureBox()
         PictureBox17 = New PictureBox()
+        GuidePanel = New Panel()
+        btnCloseGuide = New Button()
+        imgGuideImage = New PictureBox()
+        txtGuideContent = New TextBox()
+        lblGuideTitle = New Label()
         Panel2.SuspendLayout()
         FlowLayoutPanel1.SuspendLayout()
         Panel3.SuspendLayout()
@@ -129,6 +134,8 @@ Partial Class VegetablePage
         CType(PictureBox11, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox16, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox17, ComponentModel.ISupportInitialize).BeginInit()
+        GuidePanel.SuspendLayout()
+        CType(imgGuideImage, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Panel2
@@ -189,7 +196,7 @@ Partial Class VegetablePage
         ' Panel3
         ' 
         Panel3.BorderStyle = BorderStyle.FixedSingle
-        Panel3.Controls.Add(Button2)
+        Panel3.Controls.Add(btnViewGuideTomato)
         Panel3.Controls.Add(Button1)
         Panel3.Controls.Add(Label2)
         Panel3.Controls.Add(Label1)
@@ -200,19 +207,19 @@ Partial Class VegetablePage
         Panel3.Size = New Size(246, 323)
         Panel3.TabIndex = 0
         ' 
-        ' Button2
+        ' btnViewGuideTomato
         ' 
-        Button2.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Button2.FlatAppearance.BorderSize = 0
-        Button2.FlatStyle = FlatStyle.Flat
-        Button2.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button2.ForeColor = SystemColors.ButtonHighlight
-        Button2.Location = New Point(37, 262)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(169, 39)
-        Button2.TabIndex = 4
-        Button2.Text = "VIEW GUIDE"
-        Button2.UseVisualStyleBackColor = False
+        btnViewGuideTomato.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        btnViewGuideTomato.FlatAppearance.BorderSize = 0
+        btnViewGuideTomato.FlatStyle = FlatStyle.Flat
+        btnViewGuideTomato.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        btnViewGuideTomato.ForeColor = SystemColors.ButtonHighlight
+        btnViewGuideTomato.Location = New Point(37, 262)
+        btnViewGuideTomato.Name = "btnViewGuideTomato"
+        btnViewGuideTomato.Size = New Size(169, 39)
+        btnViewGuideTomato.TabIndex = 4
+        btnViewGuideTomato.Text = "VIEW GUIDE"
+        btnViewGuideTomato.UseVisualStyleBackColor = False
         ' 
         ' Button1
         ' 
@@ -261,7 +268,7 @@ Partial Class VegetablePage
         ' Panel5
         ' 
         Panel5.BorderStyle = BorderStyle.FixedSingle
-        Panel5.Controls.Add(Button4)
+        Panel5.Controls.Add(btnViewGuideCucumber)
         Panel5.Controls.Add(Button5)
         Panel5.Controls.Add(Label3)
         Panel5.Controls.Add(Label4)
@@ -272,19 +279,19 @@ Partial Class VegetablePage
         Panel5.Size = New Size(246, 323)
         Panel5.TabIndex = 1
         ' 
-        ' Button4
+        ' btnViewGuideCucumber
         ' 
-        Button4.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Button4.FlatAppearance.BorderSize = 0
-        Button4.FlatStyle = FlatStyle.Flat
-        Button4.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button4.ForeColor = SystemColors.ButtonHighlight
-        Button4.Location = New Point(38, 261)
-        Button4.Name = "Button4"
-        Button4.Size = New Size(169, 39)
-        Button4.TabIndex = 9
-        Button4.Text = "VIEW GUIDE"
-        Button4.UseVisualStyleBackColor = False
+        btnViewGuideCucumber.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        btnViewGuideCucumber.FlatAppearance.BorderSize = 0
+        btnViewGuideCucumber.FlatStyle = FlatStyle.Flat
+        btnViewGuideCucumber.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        btnViewGuideCucumber.ForeColor = SystemColors.ButtonHighlight
+        btnViewGuideCucumber.Location = New Point(38, 261)
+        btnViewGuideCucumber.Name = "btnViewGuideCucumber"
+        btnViewGuideCucumber.Size = New Size(169, 39)
+        btnViewGuideCucumber.TabIndex = 9
+        btnViewGuideCucumber.Text = "VIEW GUIDE"
+        btnViewGuideCucumber.UseVisualStyleBackColor = False
         ' 
         ' Button5
         ' 
@@ -333,7 +340,7 @@ Partial Class VegetablePage
         ' Panel4
         ' 
         Panel4.BorderStyle = BorderStyle.FixedSingle
-        Panel4.Controls.Add(Button6)
+        Panel4.Controls.Add(btnViewGuideSitaw)
         Panel4.Controls.Add(Button7)
         Panel4.Controls.Add(Label5)
         Panel4.Controls.Add(Label6)
@@ -344,19 +351,19 @@ Partial Class VegetablePage
         Panel4.Size = New Size(246, 323)
         Panel4.TabIndex = 1
         ' 
-        ' Button6
+        ' btnViewGuideSitaw
         ' 
-        Button6.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Button6.FlatAppearance.BorderSize = 0
-        Button6.FlatStyle = FlatStyle.Flat
-        Button6.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button6.ForeColor = SystemColors.ButtonHighlight
-        Button6.Location = New Point(38, 261)
-        Button6.Name = "Button6"
-        Button6.Size = New Size(169, 39)
-        Button6.TabIndex = 14
-        Button6.Text = "VIEW GUIDE"
-        Button6.UseVisualStyleBackColor = False
+        btnViewGuideSitaw.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        btnViewGuideSitaw.FlatAppearance.BorderSize = 0
+        btnViewGuideSitaw.FlatStyle = FlatStyle.Flat
+        btnViewGuideSitaw.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        btnViewGuideSitaw.ForeColor = SystemColors.ButtonHighlight
+        btnViewGuideSitaw.Location = New Point(38, 261)
+        btnViewGuideSitaw.Name = "btnViewGuideSitaw"
+        btnViewGuideSitaw.Size = New Size(169, 39)
+        btnViewGuideSitaw.TabIndex = 14
+        btnViewGuideSitaw.Text = "VIEW GUIDE"
+        btnViewGuideSitaw.UseVisualStyleBackColor = False
         ' 
         ' Button7
         ' 
@@ -405,7 +412,7 @@ Partial Class VegetablePage
         ' Panel6
         ' 
         Panel6.BorderStyle = BorderStyle.FixedSingle
-        Panel6.Controls.Add(Button8)
+        Panel6.Controls.Add(btnViewGuideOkra)
         Panel6.Controls.Add(Button9)
         Panel6.Controls.Add(Label8)
         Panel6.Controls.Add(Label9)
@@ -416,19 +423,19 @@ Partial Class VegetablePage
         Panel6.Size = New Size(246, 323)
         Panel6.TabIndex = 2
         ' 
-        ' Button8
+        ' btnViewGuideOkra
         ' 
-        Button8.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Button8.FlatAppearance.BorderSize = 0
-        Button8.FlatStyle = FlatStyle.Flat
-        Button8.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button8.ForeColor = SystemColors.ButtonHighlight
-        Button8.Location = New Point(37, 262)
-        Button8.Name = "Button8"
-        Button8.Size = New Size(169, 39)
-        Button8.TabIndex = 4
-        Button8.Text = "VIEW GUIDE"
-        Button8.UseVisualStyleBackColor = False
+        btnViewGuideOkra.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        btnViewGuideOkra.FlatAppearance.BorderSize = 0
+        btnViewGuideOkra.FlatStyle = FlatStyle.Flat
+        btnViewGuideOkra.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        btnViewGuideOkra.ForeColor = SystemColors.ButtonHighlight
+        btnViewGuideOkra.Location = New Point(37, 262)
+        btnViewGuideOkra.Name = "btnViewGuideOkra"
+        btnViewGuideOkra.Size = New Size(169, 39)
+        btnViewGuideOkra.TabIndex = 4
+        btnViewGuideOkra.Text = "VIEW GUIDE"
+        btnViewGuideOkra.UseVisualStyleBackColor = False
         ' 
         ' Button9
         ' 
@@ -477,7 +484,7 @@ Partial Class VegetablePage
         ' Panel7
         ' 
         Panel7.BorderStyle = BorderStyle.FixedSingle
-        Panel7.Controls.Add(Button10)
+        Panel7.Controls.Add(btnViewGuideLettuce)
         Panel7.Controls.Add(Button11)
         Panel7.Controls.Add(Label10)
         Panel7.Controls.Add(Label11)
@@ -488,19 +495,19 @@ Partial Class VegetablePage
         Panel7.Size = New Size(246, 323)
         Panel7.TabIndex = 3
         ' 
-        ' Button10
+        ' btnViewGuideLettuce
         ' 
-        Button10.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Button10.FlatAppearance.BorderSize = 0
-        Button10.FlatStyle = FlatStyle.Flat
-        Button10.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button10.ForeColor = SystemColors.ButtonHighlight
-        Button10.Location = New Point(38, 261)
-        Button10.Name = "Button10"
-        Button10.Size = New Size(169, 39)
-        Button10.TabIndex = 9
-        Button10.Text = "VIEW GUIDE"
-        Button10.UseVisualStyleBackColor = False
+        btnViewGuideLettuce.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        btnViewGuideLettuce.FlatAppearance.BorderSize = 0
+        btnViewGuideLettuce.FlatStyle = FlatStyle.Flat
+        btnViewGuideLettuce.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        btnViewGuideLettuce.ForeColor = SystemColors.ButtonHighlight
+        btnViewGuideLettuce.Location = New Point(38, 261)
+        btnViewGuideLettuce.Name = "btnViewGuideLettuce"
+        btnViewGuideLettuce.Size = New Size(169, 39)
+        btnViewGuideLettuce.TabIndex = 9
+        btnViewGuideLettuce.Text = "VIEW GUIDE"
+        btnViewGuideLettuce.UseVisualStyleBackColor = False
         ' 
         ' Button11
         ' 
@@ -549,7 +556,7 @@ Partial Class VegetablePage
         ' Panel8
         ' 
         Panel8.BorderStyle = BorderStyle.FixedSingle
-        Panel8.Controls.Add(Button12)
+        Panel8.Controls.Add(btnViewGuidePechay)
         Panel8.Controls.Add(Button13)
         Panel8.Controls.Add(Label12)
         Panel8.Controls.Add(Label13)
@@ -560,19 +567,19 @@ Partial Class VegetablePage
         Panel8.Size = New Size(246, 323)
         Panel8.TabIndex = 4
         ' 
-        ' Button12
+        ' btnViewGuidePechay
         ' 
-        Button12.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Button12.FlatAppearance.BorderSize = 0
-        Button12.FlatStyle = FlatStyle.Flat
-        Button12.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button12.ForeColor = SystemColors.ButtonHighlight
-        Button12.Location = New Point(38, 261)
-        Button12.Name = "Button12"
-        Button12.Size = New Size(169, 39)
-        Button12.TabIndex = 14
-        Button12.Text = "VIEW GUIDE"
-        Button12.UseVisualStyleBackColor = False
+        btnViewGuidePechay.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        btnViewGuidePechay.FlatAppearance.BorderSize = 0
+        btnViewGuidePechay.FlatStyle = FlatStyle.Flat
+        btnViewGuidePechay.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        btnViewGuidePechay.ForeColor = SystemColors.ButtonHighlight
+        btnViewGuidePechay.Location = New Point(38, 261)
+        btnViewGuidePechay.Name = "btnViewGuidePechay"
+        btnViewGuidePechay.Size = New Size(169, 39)
+        btnViewGuidePechay.TabIndex = 14
+        btnViewGuidePechay.Text = "VIEW GUIDE"
+        btnViewGuidePechay.UseVisualStyleBackColor = False
         ' 
         ' Button13
         ' 
@@ -621,7 +628,7 @@ Partial Class VegetablePage
         ' Panel9
         ' 
         Panel9.BorderStyle = BorderStyle.FixedSingle
-        Panel9.Controls.Add(Button14)
+        Panel9.Controls.Add(btnViewGuideEggplant)
         Panel9.Controls.Add(Button15)
         Panel9.Controls.Add(Label14)
         Panel9.Controls.Add(Label15)
@@ -632,19 +639,19 @@ Partial Class VegetablePage
         Panel9.Size = New Size(246, 323)
         Panel9.TabIndex = 5
         ' 
-        ' Button14
+        ' btnViewGuideEggplant
         ' 
-        Button14.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Button14.FlatAppearance.BorderSize = 0
-        Button14.FlatStyle = FlatStyle.Flat
-        Button14.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button14.ForeColor = SystemColors.ButtonHighlight
-        Button14.Location = New Point(37, 262)
-        Button14.Name = "Button14"
-        Button14.Size = New Size(169, 39)
-        Button14.TabIndex = 4
-        Button14.Text = "VIEW GUIDE"
-        Button14.UseVisualStyleBackColor = False
+        btnViewGuideEggplant.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        btnViewGuideEggplant.FlatAppearance.BorderSize = 0
+        btnViewGuideEggplant.FlatStyle = FlatStyle.Flat
+        btnViewGuideEggplant.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        btnViewGuideEggplant.ForeColor = SystemColors.ButtonHighlight
+        btnViewGuideEggplant.Location = New Point(37, 262)
+        btnViewGuideEggplant.Name = "btnViewGuideEggplant"
+        btnViewGuideEggplant.Size = New Size(169, 39)
+        btnViewGuideEggplant.TabIndex = 4
+        btnViewGuideEggplant.Text = "VIEW GUIDE"
+        btnViewGuideEggplant.UseVisualStyleBackColor = False
         ' 
         ' Button15
         ' 
@@ -693,7 +700,7 @@ Partial Class VegetablePage
         ' Panel10
         ' 
         Panel10.BorderStyle = BorderStyle.FixedSingle
-        Panel10.Controls.Add(Button16)
+        Panel10.Controls.Add(btnViewGuideSquash)
         Panel10.Controls.Add(Button17)
         Panel10.Controls.Add(Label16)
         Panel10.Controls.Add(Label17)
@@ -704,19 +711,19 @@ Partial Class VegetablePage
         Panel10.Size = New Size(246, 323)
         Panel10.TabIndex = 6
         ' 
-        ' Button16
+        ' btnViewGuideSquash
         ' 
-        Button16.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Button16.FlatAppearance.BorderSize = 0
-        Button16.FlatStyle = FlatStyle.Flat
-        Button16.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button16.ForeColor = SystemColors.ButtonHighlight
-        Button16.Location = New Point(38, 261)
-        Button16.Name = "Button16"
-        Button16.Size = New Size(169, 39)
-        Button16.TabIndex = 9
-        Button16.Text = "VIEW GUIDE"
-        Button16.UseVisualStyleBackColor = False
+        btnViewGuideSquash.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        btnViewGuideSquash.FlatAppearance.BorderSize = 0
+        btnViewGuideSquash.FlatStyle = FlatStyle.Flat
+        btnViewGuideSquash.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        btnViewGuideSquash.ForeColor = SystemColors.ButtonHighlight
+        btnViewGuideSquash.Location = New Point(38, 261)
+        btnViewGuideSquash.Name = "btnViewGuideSquash"
+        btnViewGuideSquash.Size = New Size(169, 39)
+        btnViewGuideSquash.TabIndex = 9
+        btnViewGuideSquash.Text = "VIEW GUIDE"
+        btnViewGuideSquash.UseVisualStyleBackColor = False
         ' 
         ' Button17
         ' 
@@ -765,7 +772,7 @@ Partial Class VegetablePage
         ' Panel11
         ' 
         Panel11.BorderStyle = BorderStyle.FixedSingle
-        Panel11.Controls.Add(Button18)
+        Panel11.Controls.Add(btnViewGuideOnion)
         Panel11.Controls.Add(Button19)
         Panel11.Controls.Add(Label18)
         Panel11.Controls.Add(Label19)
@@ -776,19 +783,19 @@ Partial Class VegetablePage
         Panel11.Size = New Size(246, 323)
         Panel11.TabIndex = 7
         ' 
-        ' Button18
+        ' btnViewGuideOnion
         ' 
-        Button18.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
-        Button18.FlatAppearance.BorderSize = 0
-        Button18.FlatStyle = FlatStyle.Flat
-        Button18.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
-        Button18.ForeColor = SystemColors.ButtonHighlight
-        Button18.Location = New Point(38, 261)
-        Button18.Name = "Button18"
-        Button18.Size = New Size(169, 39)
-        Button18.TabIndex = 14
-        Button18.Text = "VIEW GUIDE"
-        Button18.UseVisualStyleBackColor = False
+        btnViewGuideOnion.BackColor = Color.FromArgb(CByte(18), CByte(16), CByte(0))
+        btnViewGuideOnion.FlatAppearance.BorderSize = 0
+        btnViewGuideOnion.FlatStyle = FlatStyle.Flat
+        btnViewGuideOnion.Font = New Font("Arial Black", 8.25F, FontStyle.Bold)
+        btnViewGuideOnion.ForeColor = SystemColors.ButtonHighlight
+        btnViewGuideOnion.Location = New Point(38, 261)
+        btnViewGuideOnion.Name = "btnViewGuideOnion"
+        btnViewGuideOnion.Size = New Size(169, 39)
+        btnViewGuideOnion.TabIndex = 14
+        btnViewGuideOnion.Text = "VIEW GUIDE"
+        btnViewGuideOnion.UseVisualStyleBackColor = False
         ' 
         ' Button19
         ' 
@@ -1049,11 +1056,60 @@ Partial Class VegetablePage
         ' 
         PictureBox17.BackgroundImage = CType(resources.GetObject("PictureBox17.BackgroundImage"), Image)
         PictureBox17.BackgroundImageLayout = ImageLayout.Stretch
-        PictureBox17.Location = New Point(890, 392)
+        PictureBox17.Location = New Point(892, 378)
         PictureBox17.Name = "PictureBox17"
         PictureBox17.Size = New Size(37, 58)
         PictureBox17.TabIndex = 43
         PictureBox17.TabStop = False
+        ' 
+        ' GuidePanel
+        ' 
+        GuidePanel.BackColor = Color.FromArgb(CByte(224), CByte(224), CByte(224))
+        GuidePanel.Controls.Add(btnCloseGuide)
+        GuidePanel.Controls.Add(imgGuideImage)
+        GuidePanel.Controls.Add(txtGuideContent)
+        GuidePanel.Controls.Add(lblGuideTitle)
+        GuidePanel.Location = New Point(215, 122)
+        GuidePanel.Name = "GuidePanel"
+        GuidePanel.Size = New Size(0, 0)
+        GuidePanel.TabIndex = 44
+        GuidePanel.Visible = False
+        ' 
+        ' btnCloseGuide
+        ' 
+        btnCloseGuide.FlatAppearance.BorderSize = 0
+        btnCloseGuide.FlatStyle = FlatStyle.Flat
+        btnCloseGuide.Image = CType(resources.GetObject("btnCloseGuide.Image"), Image)
+        btnCloseGuide.Location = New Point(471, 3)
+        btnCloseGuide.Name = "btnCloseGuide"
+        btnCloseGuide.Size = New Size(31, 23)
+        btnCloseGuide.TabIndex = 3
+        btnCloseGuide.UseVisualStyleBackColor = True
+        ' 
+        ' imgGuideImage
+        ' 
+        imgGuideImage.Location = New Point(174, 44)
+        imgGuideImage.Name = "imgGuideImage"
+        imgGuideImage.Size = New Size(152, 108)
+        imgGuideImage.TabIndex = 2
+        imgGuideImage.TabStop = False
+        ' 
+        ' txtGuideContent
+        ' 
+        txtGuideContent.Location = New Point(27, 173)
+        txtGuideContent.Multiline = True
+        txtGuideContent.Name = "txtGuideContent"
+        txtGuideContent.Size = New Size(447, 157)
+        txtGuideContent.TabIndex = 1
+        ' 
+        ' lblGuideTitle
+        ' 
+        lblGuideTitle.AutoSize = True
+        lblGuideTitle.Location = New Point(218, 13)
+        lblGuideTitle.Name = "lblGuideTitle"
+        lblGuideTitle.Size = New Size(63, 15)
+        lblGuideTitle.TabIndex = 0
+        lblGuideTitle.Text = "Guide Title"
         ' 
         ' VegetablePage
         ' 
@@ -1061,6 +1117,7 @@ Partial Class VegetablePage
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(252), CByte(251), CByte(244))
         ClientSize = New Size(932, 548)
+        Controls.Add(GuidePanel)
         Controls.Add(PictureBox17)
         Controls.Add(PictureBox16)
         Controls.Add(PictureBox15)
@@ -1117,6 +1174,9 @@ Partial Class VegetablePage
         CType(PictureBox11, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox16, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox17, ComponentModel.ISupportInitialize).EndInit()
+        GuidePanel.ResumeLayout(False)
+        GuidePanel.PerformLayout()
+        CType(imgGuideImage, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -1140,50 +1200,50 @@ Partial Class VegetablePage
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Label2 As Label
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents btnViewGuideTomato As Button
+    Friend WithEvents btnViewGuideCucumber As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents Button6 As Button
+    Friend WithEvents btnViewGuideSitaw As Button
     Friend WithEvents Button7 As Button
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Panel6 As Panel
-    Friend WithEvents Button8 As Button
+    Friend WithEvents btnViewGuideOkra As Button
     Friend WithEvents Button9 As Button
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents Panel7 As Panel
-    Friend WithEvents Button10 As Button
+    Friend WithEvents btnViewGuideLettuce As Button
     Friend WithEvents Button11 As Button
     Friend WithEvents Label10 As Label
     Friend WithEvents Label11 As Label
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents Panel8 As Panel
-    Friend WithEvents Button12 As Button
+    Friend WithEvents btnViewGuidePechay As Button
     Friend WithEvents Button13 As Button
     Friend WithEvents Label12 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents Panel9 As Panel
-    Friend WithEvents Button14 As Button
+    Friend WithEvents btnViewGuideEggplant As Button
     Friend WithEvents Button15 As Button
     Friend WithEvents Label14 As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents PictureBox8 As PictureBox
     Friend WithEvents Panel10 As Panel
-    Friend WithEvents Button16 As Button
+    Friend WithEvents btnViewGuideSquash As Button
     Friend WithEvents Button17 As Button
     Friend WithEvents Label16 As Label
     Friend WithEvents Label17 As Label
     Friend WithEvents PictureBox9 As PictureBox
     Friend WithEvents Panel11 As Panel
-    Friend WithEvents Button18 As Button
+    Friend WithEvents btnViewGuideOnion As Button
     Friend WithEvents Button19 As Button
     Friend WithEvents Label18 As Label
     Friend WithEvents Label19 As Label
@@ -1197,4 +1257,9 @@ Partial Class VegetablePage
     Friend WithEvents PictureBox11 As PictureBox
     Friend WithEvents PictureBox16 As PictureBox
     Friend WithEvents PictureBox17 As PictureBox
+    Friend WithEvents GuidePanel As Panel
+    Friend WithEvents imgGuideImage As PictureBox
+    Friend WithEvents txtGuideContent As TextBox
+    Friend WithEvents lblGuideTitle As Label
+    Friend WithEvents btnCloseGuide As Button
 End Class
