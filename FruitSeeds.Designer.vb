@@ -31,9 +31,6 @@ Partial Class FruitSeeds
         Panel13 = New Panel()
         PictureBox2 = New PictureBox()
         btnNavExit = New Button()
-        btnNav = New Button()
-        Panel2 = New Panel()
-        Button3 = New Button()
         FlowLayoutPanel1 = New FlowLayoutPanel()
         Panel3 = New Panel()
         AppleViewGuide = New Button()
@@ -90,6 +87,9 @@ Partial Class FruitSeeds
         Label19 = New Label()
         PictureBox10 = New PictureBox()
         Panel12 = New Panel()
+        btnNav = New Button()
+        Panel2 = New Panel()
+        Button3 = New Button()
         Label7 = New Label()
         Panel1 = New Panel()
         PictureBox11 = New PictureBox()
@@ -103,7 +103,6 @@ Partial Class FruitSeeds
         Nav.SuspendLayout()
         Panel13.SuspendLayout()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
-        Panel2.SuspendLayout()
         FlowLayoutPanel1.SuspendLayout()
         Panel3.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
@@ -123,6 +122,7 @@ Partial Class FruitSeeds
         CType(PictureBox9, ComponentModel.ISupportInitialize).BeginInit()
         Panel11.SuspendLayout()
         CType(PictureBox10, ComponentModel.ISupportInitialize).BeginInit()
+        Panel2.SuspendLayout()
         CType(PictureBox11, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox14, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox13, ComponentModel.ISupportInitialize).BeginInit()
@@ -259,41 +259,6 @@ Partial Class FruitSeeds
         btnNavExit.TabIndex = 23
         btnNavExit.UseVisualStyleBackColor = True
         ' 
-        ' btnNav
-        ' 
-        btnNav.BackColor = Color.Transparent
-        btnNav.Cursor = Cursors.Hand
-        btnNav.FlatAppearance.BorderSize = 0
-        btnNav.FlatStyle = FlatStyle.Flat
-        btnNav.Image = CType(resources.GetObject("btnNav.Image"), Image)
-        btnNav.Location = New Point(12, 52)
-        btnNav.Name = "btnNav"
-        btnNav.Size = New Size(43, 43)
-        btnNav.TabIndex = 26
-        btnNav.UseVisualStyleBackColor = False
-        ' 
-        ' Panel2
-        ' 
-        Panel2.BackColor = Color.FromArgb(CByte(0), CByte(64), CByte(0))
-        Panel2.Controls.Add(Button3)
-        Panel2.Dock = DockStyle.Top
-        Panel2.Location = New Point(0, 0)
-        Panel2.Name = "Panel2"
-        Panel2.Size = New Size(932, 37)
-        Panel2.TabIndex = 25
-        ' 
-        ' Button3
-        ' 
-        Button3.Cursor = Cursors.Hand
-        Button3.FlatAppearance.BorderSize = 0
-        Button3.FlatStyle = FlatStyle.Flat
-        Button3.Image = CType(resources.GetObject("Button3.Image"), Image)
-        Button3.Location = New Point(897, 3)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(32, 31)
-        Button3.TabIndex = 11
-        Button3.UseVisualStyleBackColor = True
-        ' 
         ' FlowLayoutPanel1
         ' 
         FlowLayoutPanel1.AutoScroll = True
@@ -308,7 +273,7 @@ Partial Class FruitSeeds
         FlowLayoutPanel1.Controls.Add(Panel10)
         FlowLayoutPanel1.Controls.Add(Panel11)
         FlowLayoutPanel1.Controls.Add(Panel12)
-        FlowLayoutPanel1.Location = New Point(47, 139)
+        FlowLayoutPanel1.Location = New Point(53, 139)
         FlowLayoutPanel1.Name = "FlowLayoutPanel1"
         FlowLayoutPanel1.Padding = New Padding(10)
         FlowLayoutPanel1.Size = New Size(838, 364)
@@ -969,6 +934,41 @@ Partial Class FruitSeeds
         Panel12.Size = New Size(785, 22)
         Panel12.TabIndex = 8
         ' 
+        ' btnNav
+        ' 
+        btnNav.BackColor = Color.Transparent
+        btnNav.Cursor = Cursors.Hand
+        btnNav.FlatAppearance.BorderSize = 0
+        btnNav.FlatStyle = FlatStyle.Flat
+        btnNav.Image = CType(resources.GetObject("btnNav.Image"), Image)
+        btnNav.Location = New Point(12, 52)
+        btnNav.Name = "btnNav"
+        btnNav.Size = New Size(43, 43)
+        btnNav.TabIndex = 26
+        btnNav.UseVisualStyleBackColor = False
+        ' 
+        ' Panel2
+        ' 
+        Panel2.BackColor = Color.FromArgb(CByte(0), CByte(64), CByte(0))
+        Panel2.Controls.Add(Button3)
+        Panel2.Dock = DockStyle.Top
+        Panel2.Location = New Point(0, 0)
+        Panel2.Name = "Panel2"
+        Panel2.Size = New Size(932, 37)
+        Panel2.TabIndex = 25
+        ' 
+        ' Button3
+        ' 
+        Button3.Cursor = Cursors.Hand
+        Button3.FlatAppearance.BorderSize = 0
+        Button3.FlatStyle = FlatStyle.Flat
+        Button3.Image = CType(resources.GetObject("Button3.Image"), Image)
+        Button3.Location = New Point(897, 3)
+        Button3.Name = "Button3"
+        Button3.Size = New Size(32, 31)
+        Button3.TabIndex = 11
+        Button3.UseVisualStyleBackColor = True
+        ' 
         ' Label7
         ' 
         Label7.AutoSize = True
@@ -1082,17 +1082,17 @@ Partial Class FruitSeeds
         Controls.Add(PictureBox11)
         Controls.Add(Label7)
         Controls.Add(Panel1)
-        Controls.Add(FlowLayoutPanel1)
         Controls.Add(Nav)
         Controls.Add(btnNav)
         Controls.Add(Panel2)
+        Controls.Add(FlowLayoutPanel1)
         FormBorderStyle = FormBorderStyle.None
         Name = "FruitSeeds"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Form3"
         Nav.ResumeLayout(False)
         Panel13.ResumeLayout(False)
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
-        Panel2.ResumeLayout(False)
         FlowLayoutPanel1.ResumeLayout(False)
         Panel3.ResumeLayout(False)
         Panel3.PerformLayout()
@@ -1121,6 +1121,7 @@ Partial Class FruitSeeds
         Panel11.ResumeLayout(False)
         Panel11.PerformLayout()
         CType(PictureBox10, ComponentModel.ISupportInitialize).EndInit()
+        Panel2.ResumeLayout(False)
         CType(PictureBox11, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox14, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox13, ComponentModel.ISupportInitialize).EndInit()
